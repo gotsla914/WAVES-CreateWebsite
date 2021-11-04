@@ -1,12 +1,16 @@
 footer{
+    width: 100%;
     /* border-top: 0.1px solid #c9c9c9; */
     /* border-top: 0.1px solid #a1a1a1; */
     box-sizing: border-box;
 }
-footer>div.footerTop,
-footer>div.footerBtm{
-    /* width: 75rem;
-margin: 0 auto */
+.footer_wrap{
+  width: 100vh;  
+}
+footer>div.footerTop>div,
+footer>div.footerBtm>corpInfo{
+    width: 75rem;
+margin: 0 auto
 }
 footer>div.footerTop{
     padding-top: 0.5rem;

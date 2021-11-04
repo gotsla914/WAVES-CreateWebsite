@@ -1,4 +1,5 @@
-body{font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;}
+body{font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;
+width: 100%;}
 
     /*컨텐츠 전체*/
     .content {
