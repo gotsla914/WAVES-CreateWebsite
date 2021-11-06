@@ -48,6 +48,7 @@
       -webkit-background-size: cover;
       background-size: cover;
       background-position: center;
+      background-image: url(imgs/sub_imgs/05.jpg);
     }
 
     .swiper-slide .title {
@@ -97,7 +98,6 @@
       text-align: center;
       font-size: 18px;
       background-color: #F5F5F5;
-
       /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
@@ -134,14 +134,28 @@
 
     .bx_group>div>a {
       width: 100%;
-      /* height: 100%; */
+    }
+
+    .btnArea {
+      margin-top: 1.5rem;
+    }
+
+    .btnArea>a {
+      font: 1rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+      display: inline-block;
+      color: #E9E9E9;
+      /* color: #222; */
+      /* background-color: #E9E9E9; */
+      background-color: #3f3f3f;
+      width: 5.2rem;
+
     }
 
     /* swiper 끝 */
 
 
     /* 커브드2 */
-    .etc.custom-shape-divider-top-1635568810 {
+    .etc.custom-shape-divider-sub {
       position: absolute;
       top: 0;
       left: 0;
@@ -150,7 +164,7 @@
       line-height: 0;
     }
 
-    .custom-shape-divider-top-1635568810 svg {
+    .custom-shape-divider-sub svg {
       position: relative;
       display: block;
       width: calc(165% + 1.3px);
@@ -159,8 +173,20 @@
       width: 75rem;
     }
 
-    .custom-shape-divider-top-1635568810 .shape-fill {
-      fill: #EBEBEB;
+    .custom-shape-divider-sub .shape-fill {
+      fill: #F5F5F5;
+    }
+
+    section.sub_etc {
+      background-color: #ffff;
+      width: 75rem;
+      margin: 0 auto;
+      padding-top: 0rem;
+      padding-bottom: 5rem;
+    }
+
+    p.dirTop {
+      background-color: #ffff;
     }
   </style>
 </head>
@@ -265,7 +291,8 @@
           <div id="srchBox">
             <h2 class="hidden">제품검색</h2>
             <form action="index.jsp">
-              <a href="#"><input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘" id="srch_icon" /></a>
+              <a href="#"><input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘"
+                  id="srch_icon" /></a>
               <input type="search" id="srch" placeholder="제품 검색" maxlength="7" />
             </form>
           </div>
@@ -282,11 +309,10 @@
           <div class="main_banner">
             <h2 class="hidden">메인배너</h2>
 
-
             <!-- Swiper main -->
-            <div style="--swiper-navigation-color: #000; --swiper-pagination-color: #000" class="swiper mySwiper">
+            <div style="--swiper-navigation-color: #4b4b4b; --swiper-pagination-color: #000" class="swiper mySwiper">
               <div class="parallax-bg" style="
-                background-image: url();" data-swiper-parallax="-23%"></div>
+                background-image: url(imgs/sub_imgs/05.jpg);" data-swiper-parallax="-23%"></div>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="title" data-swiper-parallax="-300">Slide 1</div>
@@ -342,9 +368,12 @@
             <!-- swiper main 끝 -->
 
             <!--  main banner!!! -->
-            <!-- <aside class="bg_item">
+            <aside class="bg_item">
               <img class="scene-img" src="imgs/sub_imgs/05.jpg" alt="신제품 메인배너" />
-            </aside> -->
+            </aside>
+
+
+
           </div>
           <div class="scroll_text">
             <div class="step">
@@ -379,7 +408,6 @@
         <!-- Swiper -->
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <!-- Slide 1시작 -->
               <div class="bx_group">
@@ -390,17 +418,16 @@
                   </div>
                   <div class="textArea">
                     <p class="product_name">
-                      혜택 2. 한정판 폴딩박스 증정
+                      음악을 더 음악답게
                     </p>
                     <p class="sub_txt">
-                      11.02(화),11.04(목),11.06(토)에 진행되는 나이키 <br>
-                      라이브를 통해 제품을 구매하신 나이키 멤버 중 <br>
-                      각 일별 선착순 600분을 추첨하여 한정판 <br>
-                      폴딩박스를 증정합니다.
+                      WAVES는 가상의 서라운드 사운드를 통해<br>
+                      영화 속 중심에 서 있는 듯 한 생생함과<br>
+                      극적인 몰입감을 더하는 무게감 있는 베이스를 전달합니다.
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
                 <div>
@@ -409,35 +436,24 @@
                   </div>
                   <div class="textArea">
                     <p class="product_name">
-                      혜택 2. 한정판 폴딩박스 증정
+                      사운드코어 라이프 Q35
                     </p>
                     <p class="sub_txt">
-                      11.02(화),11.04(목),11.06(토)에 진행되는 나이키 <br>
-                      라이브를 통해 제품을 구매하신 나이키 멤버 중 <br>
-                      각 일별 선착순 600분을 추첨하여 한정판 <br>
-                      폴딩박스를 증정합니다.
+                      40mm 다이나믹 드라이버와 LDAC<br>
+                      최대 95% 노이즈 캔슬링 기능<br>
+                      Auto Pause와 사운드코어 앱을 지원합니다.
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
               </div>
-
-
-
-
               <!-- Slide 1끝 -->
             </div>
-
-
-
-
             <div class="swiper-slide">
               <!-- Slide 2시작 -->
-
               <div class="bx_group">
-
                 <div>
                   <div class="imgArea">
                     <a href="#"><img src="imgs/sub_imgs/01.jpg" alt="제품01"></a>
@@ -454,7 +470,7 @@
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
                 <div>
@@ -473,7 +489,7 @@
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
               </div>
@@ -482,7 +498,7 @@
 
             <div class="swiper-slide">
 
-              <!-- Slide 1시작 -->
+              <!-- Slide 3시작 -->
               <div class="bx_group">
 
                 <div>
@@ -501,7 +517,7 @@
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
                 <div>
@@ -520,23 +536,18 @@
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
 
 
 
 
-                <!-- Slide 1끝 -->
+                <!-- Slide 3끝 -->
               </div>
-
-
-
-
-
             </div>
             <div class="swiper-slide">
-              <!-- Slide 1시작 -->
+              <!-- Slide 4시작 -->
               <div class="bx_group">
 
                 <div>
@@ -555,7 +566,7 @@
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
                 <div>
@@ -574,11 +585,11 @@
                     </p>
                   </div>
                   <div class="btnArea">
-                    <a>자세히 보기</a>
+                    <a href="#">자세히 보기</a>
                   </div>
                 </div>
               </div>
-              <!-- Slide 1끝 -->
+              <!-- Slide 4끝 -->
             </div>
           </div>
 
@@ -593,11 +604,10 @@
 
 
         <div>
-          <section class="etc">
+          <section class="etc sub_etc">
             <!-- 커브 디바이더 -->
             <div>
-
-              <div class="custom-shape-divider-top-1635568810">
+              <div class="custom-shape-divider-sub">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                   preserveAspectRatio="none">
                   <path
@@ -612,13 +622,25 @@
                 </svg>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 커브 디바이더 끝 -->
             <!-- 커브 디바이더 끝 -->
             <h2 class="hidden">기타 내용</h2>
             <ul>
               <li>
                 <a href="#">
                   <img src="imgs/building_icon.png" alt="웨이브 아트 뮤지엄" />
-                  <span>WAVES Art Museum<span>
+                  <span>WAVES<br>Art Museum<span>
                 </a>
               </li>
               <li>
@@ -640,6 +662,7 @@
             <a href="#top"><img src="imgs/T_arrow_icon.png" alt="위로가기" /></a>
           </p>
         </div>
+        <!-- 메인 컨텐츠 끝-->
       </main>
       <footer>
         <h2 class="hidden">하단내용</h2>
@@ -673,9 +696,9 @@
             <address> WAVES KOREA<span></span>경기도 성남시 분당구 178-1 문화팩토리 2층</address>
             <p>사업자번호 2022-23011<span></span>통신판매번호 2022-23011 </p>
             <p>대표번호 1588-1500<span></span>이메일 waves@official.com</p>
+
           </div>
-
-
+        </div>
       </footer>
   </div>
 

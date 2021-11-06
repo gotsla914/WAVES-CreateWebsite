@@ -1,124 +1,123 @@
-body{font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;
-width: 100%;}
+body {
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    width: 100%;
+}
 
-    /*컨텐츠 전체*/
-    .content {
-        width: 100%;
-         /* 스크롤바가 생기도록 강제로 가상 컨텐츠 높이 생성 */
-        /* background-color: rosybrown; */
-        /* border: 1px solid rosybrown; */
-        z-index: 99999;
-      }
+/*컨텐츠 전체*/
+.content {
+    width: 100%;
+    z-index: 99999;
+}
 
-      /* 프로그래스바 - 랩퍼역할 */
-      .progressbar {
-        position: fixed;
-        height: 0.4rem;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 99999;
-      }
-
-      /* 자바스크립트로 너비 값을 계산할 때 
-      전체 높이를 기준으로 퍼센트 비율로 너비를 계산해 표시한다.
-      => 프로그래스바의 너비 값은 "%"로 표시해야 함 */
-
-      /*프로그레스바-진행도*/
-      .progressbar > .progress {
-        width: 0%;
-        height: 100%;
-        transition: width 0.3s ease;
-        background-color: #e2e2e2;
-        /* opacity: 0.3; */
-        margin-top: 5rem;
-      }
-
-header{
+/* 프로그래스바 - 랩퍼역할 */
+.progressbar {
     position: fixed;
-    left: 0; top: 0;
+    height: 0.4rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+/* 프로그레스바 - 진행도*/
+.progressbar>.progress {
+    width: 0%;
+    height: 100%;
+    transition: width 0.3s ease;
+    background-color: #e2e2e2;
+    /* opacity: 0.3; */
+    margin-top: 5rem;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
     z-index: 9999;
-    width:100%;
+    width: 100%;
     height: 5.3rem;
     background: #fff;
     border-bottom: 0.1rem solid #c9c9c9;
 
-}   
- header>.center>h1{
+}
+
+header>.center>h1 {
     display: inline-block;
     margin-right: 23rem;
 }
-.center{
+
+.center {
     justify-content: end;
     margin: 0 auto;
-    width: 75rem; height: 3.5rem;
+    width: 75rem;
+    height: 3.5rem;
     display: flex;
-   
+
 }
-.center>h1>a>img{
+
+.center>h1>a>img {
     width: 11rem;
     margin-top: 1.45rem;
     display: inline-block;
     margin-bottom: 1rem;
 }
-.main_menu{
-    font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;
+
+.main_menu {
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     font-size: 1.1rem;
     font-weight: 800;
 }
 
 /* 네비게이터 */
-header>div>nav{
-    /* margin-left: 5.5rem; */
-    /* padding-top: 2rem;
-    padding-bottom: 2rem; */
+header>div>nav {
     height: 3rem;
     float: left;
 }
-header>div>nav>ul{
+
+header>div>nav>ul {
     height: 3rem;
-    /* margin-left: 3rem; */
-    /* padding-left: 7rem; */
     padding: 1rem 0;
     display: flex;
 }
-header>div>nav>ul>li{
+
+header>div>nav>ul>li {
     position: relative;
-    /* flex: 1 0 auto; */
     margin: auto 1rem;
     height: 1rem;
 }
-header>div>nav>ul>li:nth-child(4){
-margin-right: 0;
-padding-right: 0;
+
+header>div>nav>ul>li:nth-child(4) {
+    margin-right: 0;
+    padding-right: 0;
 }
-header>div>nav>ul>li>a{
+
+header>div>nav>ul>li>a {
     display: block;
     box-sizing: border-box;
-    padding: 0 0 2rem 0 ;
-
+    padding: 0 0 2rem 0;
     line-height: 1.1rem;
-    /* font-size: 1.5rem; */
     color: #222;
 }
-header>div>nav>ul>li>ul{
+
+header>div>nav>ul>li>ul {
     display: none;
     position: absolute;
-    left: -25px; top: 3.3rem;
+    left: -25px;
+    top: 3.3rem;
     width: 185px;
     background: #fff;
 }
-header>div>nav>ul>li>ul>li{
+
+header>div>nav>ul>li>ul>li {
     position: relative;
     margin: 0 0.1rem;
-    /* height: 43px; */
     height: 2.7rem;
     border-bottom: 1px solid #e2e2e2;
 }
-header>div>nav>ul>li:nth-child(3)>a{
-    /* color: rosybrown; */
-}
-header>div>nav>ul>li>ul>li>a{
+
+header>div>nav>ul>li:nth-child(3)>a {}
+
+header>div>nav>ul>li>ul>li>a {
     font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     /* font-style: inherit; */
     font-size: 0.9rem;
@@ -127,129 +126,130 @@ header>div>nav>ul>li>ul>li>a{
     padding-left: 1.2rem;
     color: #222;
     height: 2.7rem;
-    
-    
 }
 
 /* 신제품 스토어 고객지원 */
-header>div>nav>ul>li:hover{ 
-    /* padding-bottom: ; */
-    /* border-bottom: 0.2rem solid rosybrown; */
-    /* box-sizing: border-box; */
-}
+header>div>nav>ul>li:hover {}
 
-header>div>nav>ul>li>ul>li.child{
+header>div>nav>ul>li>ul>li.child {
     background: url(../imgs/btn_depth_on.png) no-repeat 10.2rem 50%;
     color: #222;
 }
-header>div>nav>ul>li>ul>li>ul{
+
+header>div>nav>ul>li>ul>li>ul {
     display: none;
     position: absolute;
-    left: 11.4rem; top: -0.1rem;
+    left: 11.4rem;
+    top: -0.1rem;
     border: 1px solid #e2e2e2;
     width: 188px;
-    background-color: #e2e2e2; 
-    
+    background-color: #e2e2e2;
+
 }
 
-header>div>nav>ul>li>ul>li>ul:last-child{
- color: aqua;
- padding-bottom: 0.4rem;
+header>div>nav>ul>li>ul>li>ul:last-child {
+    color: aqua;
+    padding-bottom: 0.4rem;
 }
 
-header>div>nav>ul>li>ul>li>ul>li{
+header>div>nav>ul>li>ul>li>ul>li {
     height: 2.5rem;
     line-height: 2.5rem;
-    
 }
-header>div>nav>ul>li>ul>li>ul>li>a{
+
+header>div>nav>ul>li>ul>li>ul>li>a {
     font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     font-style: inherit;
     position: relative;
     display: block;
     margin-left: 1.1rem;
     padding-right: 0 2rem 2rem 0;
-    height: 3.2rem;     
+    height: 3.2rem;
     line-height: 3rem;
     color: #222;
-
-}   
-header>div>nav>ul>li>ul>li>ul>li>a::after{
-    position: absolute;
-    left: -10px;top: 50%;
-    content: "";
-    /* width: 4px; height: 0; border-top: 1px solid #222; */
-    
 }
+
+header>div>nav>ul>li>ul>li>ul>li>a::after {
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    content: "";
+}
+
 /* 네비 이벤트 */
-header>div>nav>ul>li:hover>ul{
+header>div>nav>ul>li:hover>ul {
     display: block;
     font-size: 0.9rem;
     font-weight: 700;
-    
+
 }
-header>div>nav>ul>li>ul>li:hover{
+
+header>div>nav>ul>li>ul>li:hover {
     background: #e2e2e2;
-    /* transition: 0.2s ease-in-out; */
 }
-header>div>nav>ul>li>ul>li.child:hover{
+
+header>div>nav>ul>li>ul>li.child:hover {
     margin-right: 0;
     background: #e2e2e2 url(../imgs/btn_depth_on.png)no-repeat 10.2rem 50%;
 }
-header>div>nav>ul>li>ul>li:hover>a{
-    /* color: #222; */
+
+header>div>nav>ul>li>ul>li:hover>a {
     color: #222;
-    /* line-height: 2.7rem; */
-}
-header>div>nav>ul>li>ul>li:hover>ul{
-    display: block; z-index: -1;
 }
 
-#srchBox{
+header>div>nav>ul>li>ul>li:hover>ul {
+    display: block;
+    z-index: -1;
+}
+
+#srchBox {
     position: relative;
     margin-left: 1.58rem;
     line-height: 1.7rem;
 }
-#srchBox>form>a>.srch_icon{
+
+#srchBox>form>a>.srch_icon {
     cursor: pointer;
     position: absolute;
     bottom: 0.4rem;
     right: 0.5rem;
     z-index: 999;
-
 }
 
-#srchBox>form>input[type="search"]{
+#srchBox>form>input[type="search"] {
     position: relative;
     float: right;
     box-sizing: border-box;
     border: 0 none;
     outline: 0;
-    margin-left: 0.01rem; margin-top: 1.6rem;
+    margin-left: 0.01rem;
+    margin-top: 1.6rem;
     padding: 0;
     border-radius: 5rem;
-    width: 8rem; height: 1.8rem;
+    width: 8rem;
+    height: 1.8rem;
     background: #dadada;
-     /* url(../imgs/ic_search.png)no-repeat 6.2rem 0.25rem; */
     text-align: left;
     color: #3f3f3f;
     text-indent: 1rem;
-    letter-spacing: -2px; line-height: 0.3rem;
+    letter-spacing: -2px;
+    line-height: 0.3rem;
 }
 
-#user_menu>img{
+#user_menu>img {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
     opacity: 0.75;
     cursor: pointer;
-    
+
 }
-#user_menu{
+
+#user_menu {
     margin: 1.7rem 0;
     width: 4.5rem;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding-left: 0.4rem;
     cursor: pointer;
 }
