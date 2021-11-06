@@ -1,33 +1,32 @@
-
-main{
+main {
     width: 75rem;
     margin: 0 auto;
 }
 
-main>div{
+main>div {
     position: relative;
     margin: 0 auto 0 0;
-    background-color:  #ebebeb;
+    background-color: #ebebeb;
 }
 
-.main_bn_bg{
+.sub_title {
+    font: 1.4rem/1.5rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 2rem;
+}
+
+.main_bn_bg {
     width: 100%;
     margin-top: 4rem;
 }
 
-.main_banner>aside>img{
+.main_banner>aside>img {
     max-width: 100%;
-    margin: 0 auto;}
-.theme>h2{
-    text-align: center;
-    font-family: inherit;
-    font-weight: 800;
-    font-size: x-large;
-    line-height: 2rem;
-    margin: 2rem;
+    margin: 0 auto;
 }
 
-.theme{
+.theme {
     width: 75rem;
     height: 32rem;
     margin: 10rem auto 15rem auto;
@@ -35,16 +34,16 @@ main>div{
     overflow: hidden;
 }
 
-.theme>ul{
+.theme>ul {
     height: 100%;
     object-fit: cover;
     display: flex;
-    padding: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     display: flex;
     justify-content: space-around;
 }
 
-.theme>ul>li{
+.theme>ul>li {
     overflow: hidden;
     white-space: nowrap;
     flex: 0 0 auto;
@@ -52,125 +51,104 @@ main>div{
     align-items: center;
 }
 
-.theme>ul>li>a{
+.theme>ul>li>a {
     position: relative;
     display: block;
 }
-    
-.theme>ul>li>a>img{
+
+.theme>ul>li>a>img {
     width: 20rem;
     vertical-align: top;
 }
 
-.theme>ul>li>a>img:nth-child(2){
+.theme>ul>li>a>img:nth-child(2) {
     opacity: 0;
     transition: all .5s ease;
 }
 
-.theme>ul>li>a>img:not(:first-child){
+.theme>ul>li>a>img:not(:first-child) {
     position: absolute;
     height: 10rem;
-    bottom: 0; right: 0;
+    bottom: 0;
+    right: 0;
     object-fit: cover;
 }
 
-.theme>ul:nth-child(2)>li>a>img:last-child{
-    height: 12rem;width: auto;
-    bottom: -0.5rem; right: -1.5rem;
-    
+.theme>ul:nth-child(2)>li>a>img:last-child {
+    height: 12rem;
+    width: auto;
+    bottom: -0.5rem;
+    right: -1.5rem;
+
 }
-.theme>ul:nth-child(3)>li>a>img:last-child{
-    height: 15rem; width: 1rem;
+
+.theme>ul:nth-child(3)>li>a>img:last-child {
+    height: 15rem;
+    width: 1rem;
 
 }
 
 /* 이벤트 */
-.theme>ul>li:hover>a>img:nth-child(2){
-    opacity:1;
+.theme>ul>li:hover>a>img:nth-child(2) {
+    opacity: 1;
     bottom: 0rem;
     right: 0rem;
     overflow: hidden;
 }
-.theme>ul>li:nth-child(2):hover>a>img:first-child{
-    opacity:1;
+
+.theme>ul>li:nth-child(2):hover>a>img:first-child {
+    opacity: 1;
     bottom: 10rem;
     right: 0rem;
     overflow: visible;
 }
 
-/* 가운데 제품 호버시 사진위치 수정
-.theme>ul>li:nth-child(2)>a>img:nth-child(2){
-    position: absolute;
-    top: 14rem;
-    height: 12rem;
-    overflow: hidden;
-    white-space: nowrap;
-} */
-
-/*.theme>ul>li:hover>a>img:nth-child(3){
-    right: 0;
-} */
-
 /* sub_theme 시작 */
-.sub_theme{
+.sub_theme {
     width: 72rem;
-    height: 18rem;
-    margin: 3rem auto;
+    height: 35rem;
+    margin: 1rem auto 6rem auto;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
 
-.sub_theme>h2{
-    vertical-align: text-top;
-    text-align: start;
+.sub_themeList>li>a>span {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
-.sub_theme>h2,
-.sub_themeList>li>a>span{
+.sub_themeList>li>a>.product_name {
     text-align: center;
-    font-family: inherit;
-    font-weight: 800;
-    font-size: x-large;
-    line-height: 1.2rem;
-    margin: 1rem auto 0rem auto;
-    color: #222;
+    font: 1.1rem/2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+    color: #2e2e2e;
 }
 
-.sub_themeList>li>a>span{
-display: block;
-font-size: 1.1rem;
-font-weight: 700;
-}
-
-.sub_themeList>li>a>product_name{
-    font-family: inherit;
-    font-weight: 800;
-    font-size: x-large;
-    line-height: 1rem;
-    margin: 0.4rem 0 0 0;
-}
-
-.sub_themeList>li>a>p{
-    text-align: center;
+.sub_themeList>li>a>p {
+    margin-top: 0.2rem;
+    font: 1rem/1.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     font-weight: 500;
+    text-align: center;
     color: #4b4b4b;
 }
 
-.sub_theme>ul{
+.sub_theme>ul {
     position: absolute;
     width: 75rem;
     height: 22rem;
     display: flex;
-    margin: 5rem 0;
+    margin: 2rem 0;
     display: flex;
     box-sizing: border-box;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
-.sub_theme>ul>li{
+.sub_theme>ul>li {
     width: 15rem;
-    height: 15rem;
+    height: 25rem;
     flex: 1 0 10rem;
     margin: 1rem;
     justify-content: space-between;
@@ -178,29 +156,15 @@ font-weight: 700;
 }
 
 /* HOT ITEMS */
-.sub_theme>ul>li>a{
+.sub_theme>ul>li>a {
     position: relative;
     height: 25rem;
     display: block;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
-.sub_theme>ul>li>a>img{
-width: 100%;
-}
-
-.sub_theme>ul>li>a>p{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-height: 1.5em;
-    padding: 0.6rem 0.2rem;
-    overflow: hidden;
-    font-size: 1rem;
-    line-height: 1rem;
-    margin: 0 auto;
+.sub_theme>ul>li>a>img {
+    width: 100%;
 }
 
 /* 커브 디바이드 */
@@ -224,142 +188,135 @@ width: 100%;
 .custom-shape-divider-top-1635413766 .shape-fill {
     fill: #FFFFFF;
 }
+
 /* 커브 디바이드 끝 - 아래요소 머리쪽에 붙어있음 */
 
 
 /* 회사 정보 */
-div.contents{
+div.contents {
     width: 75rem;
 }
 
+div.contents>.sub_title {
+    font: 1.4rem/1.5rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 1rem;
+    padding-top: 25rem;
+    color: #000;
+}
+
 /* 커브드1 아래 */
-div.contents>div.coInfo{
+div.contents>div.coInfo {
     width: 75rem;
-    margin-top: 30rem;
-    padding-top: 20rem;  
+    margin-top: 5rem;
     padding-bottom: 9rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex: 0 0 30rem;
+
 }
 
-div.contents>div.coInfo>section{
+div.contents>div.coInfo>section {
     padding-bottom: 3rem;
     flex: 0 1 auto;
     width: calc(50% - 3rem);
-    margin: 1.5rem 1.5rem;
-    align-items: center;
 }
+
 div.contents>div.coInfo>section:nth-child(1),
-div.contents>div.coInfo>section:nth-child(2){
-    height: 30rem;
+div.contents>div.coInfo>section:nth-child(2) {}
+
+div.contents>div.coInfo>section:nth-child(odd) {}
+div.contents>div.coInfo>section:nth-child(even) {
+    margin-left: -1rem;
 }
 
-div.contents>div.coInfo>section:nth-child(odd){}
-
-div.contents>div.coInfo>section:nth-child(even){
-    margin-right: -1rem;
-}
-
-div.contents>div.coInfo>section>a{
+div.contents>div.coInfo>section>a {
     display: block;
 }
 
-div.contents>div.coInfo>section>a>div{
+div.contents>div.coInfo>section>a>div {
     margin: 0 2rem;
 }
 
-div.contents>div.coInfo>section>a>p.pic{
+div.contents>div.coInfo>section>a>p.pic {
     margin-top: 3rem;
     height: 22rem;
 }
 
-div.contents>div.coInfo>section>a>p.pic>img{
+div.contents>div.coInfo>section>a>p.pic>img {
     vertical-align: top;
     width: 100%;
     height: 22rem;
 }
 
-.coInfo>h2{
-width: 50rem;
-text-align: center;
-font-family: inherit;
-font-weight: 800;
-font-size: x-large;
-line-height: 3rem;
-margin: 3rem auto;
-color: #222;
-}
 
-.txt{
+/* WAVES Spaciality - 하단 text */
+.txt {
+    font: 500 1.1rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: center;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    text-shadow: 1px #4b4b4b  1px #4b4b4b 1px;
-    line-height: 1.7rem;
     color: #4b4b4b;
     margin: 1rem 0 0 0;
 }
 
-section.etc{
+section.etc {
     width: 75rem;
     margin: 0 auto;
     padding-top: 0rem;
     padding-bottom: 5rem;
 }
-section.etc>ul{
+
+section.etc>ul {
     margin: 7rem 0 5rem 0;
     display: flex;
     justify-content: flex-end;
 }
 
 /* 하단 버튼 3개 */
-section.etc>ul>li{ 
-    flex: 0 1 auto; 
+section.etc>ul>li {
+    flex: 0 1 auto;
     margin: 1rem;
-    padding: 0 0.5rem 0 0.7rem; /* 버튼3 각 좌우패딩 */
+    padding: 0 0.5rem 0 0.7rem;
+    /* 버튼3 각 좌우패딩 */
     border-radius: 5rem;
     border-color: 1px solid #F2F2F2;
-    background-color: #e9e9e9; 
+    background-color: #e9e9e9;
     height: 3.7rem;
 }
 
-section.etc>ul>li:nth-child(2){
+section.etc>ul>li:nth-child(2) {
     width: 7.5rem;
 }
 
-section.etc>ul>li:nth-child(3){
-    width: 7rem;
+section.etc>ul>li:nth-child(3) {
+    width: 6.9rem;
 }
 
-section.etc>ul>li>a{
-    display: flex; 
+section.etc>ul>li>a {
+    display: flex;
     align-items: center;
     height: 3.7rem;
     width: auto;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 700;
+    font: 700 1rem/1.3rem 'Noto Sans KR','Nanum Gothic', sans-serif;
     color: #4b4b4b;
-    
+
 }
 
 /* etc.아이콘크키 */
-section.etc>ul>li>a>img:nth-child(1){
+section.etc>ul>li>a>img:nth-child(1) {
     margin-left: 0.5rem;
     width: 2rem;
 }
 
 /* etc.아이콘크키 */
-section.etc>ul>li>a>span{
+section.etc>ul>li>a>span {
     margin: 0 0.5rem;
-    width: 5rem;
 }
 
-section.etc>ul>li:nth-child(2)>a>img{}
-section.etc>ul>li:nth-child(3)>a>img{}
+section.etc>ul>li:nth-child(2)>a>img {}
+
+section.etc>ul>li:nth-child(3)>a>img {}
 
 /* 커브드2 */
 .etc.custom-shape-divider-top-1635568810 {
@@ -381,10 +338,10 @@ section.etc>ul>li:nth-child(3)>a>img{}
 }
 
 .custom-shape-divider-top-1635568810 .shape-fill {
-    fill: #F5F5F5;
+    fill: #EBEBEB;
 }
 
-p.dirTop{
+p.dirTop {
     position: relative;
     margin: 0 auto;
     display: block;
@@ -393,14 +350,17 @@ p.dirTop{
     z-index: 9999;
 }
 
-p.dirTop>a{
-    width: 2.2rem; height: 2.2rem;
+p.dirTop>a {
+    width: 2.2rem;
+    height: 2.2rem;
     position: absolute;
     right: 1.3rem;
     bottom: 4.5rem;
     opacity: 0.7;
 }
-p.dirTop>a>img{
+
+p.dirTop>a>img {
     padding: 0.5rem;
-    width: 2rem; height: 2rem;
+    width: 2rem;
+    height: 2rem;
 }

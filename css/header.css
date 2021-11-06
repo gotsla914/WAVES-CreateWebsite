@@ -210,11 +210,17 @@ header>div>nav>ul>li>ul>li:hover>ul{
     margin-left: 1.58rem;
     line-height: 1.7rem;
 }
-#srchBox>form>.srch_icon{
+#srchBox>form>a>.srch_icon{
     cursor: pointer;
+    position: absolute;
+    bottom: 0.4rem;
+    right: 0.5rem;
+    z-index: 999;
+
 }
 
 #srchBox>form>input[type="search"]{
+    position: relative;
     float: right;
     box-sizing: border-box;
     border: 0 none;
@@ -223,7 +229,8 @@ header>div>nav>ul>li>ul>li:hover>ul{
     padding: 0;
     border-radius: 5rem;
     width: 8rem; height: 1.8rem;
-    background: #dadada url(../imgs/ic_search.png)no-repeat 6.2rem 0.25rem;
+    background: #dadada;
+     /* url(../imgs/ic_search.png)no-repeat 6.2rem 0.25rem; */
     text-align: left;
     color: #3f3f3f;
     text-indent: 1rem;

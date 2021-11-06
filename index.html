@@ -15,7 +15,16 @@
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="js/index.js" />
   <script type="text/javascript" src="js/main.js"></script>
+  <style>
+    @font-face {
+      font-family: 'Pretendard-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
 </head>
+
 <body id="top">
   <div class="wrap">
     <div class="content">
@@ -37,26 +46,26 @@
               <ul>
                 <li><a href="product_list.html">2022's NEW</a></li>
                 <li class="child">
-                  <a href="#">Ear fits</a>
+                  <a href="#">이어 핏</a>
                   <ul>
-                    <li><a href="#">In-ear fit</a></li>
-                    <li><a href="#">On-ear fit</a></li>
-                    <li><a href="#">Around-ear fit</a></li>
+                    <li><a href="#">인-이어 핏</a></li>
+                    <li><a href="#">온-이어 핏</a></li>
+                    <li><a href="#">어라운드-이어 핏</a></li>
                   </ul>
                 </li>
                 <li class="child">
-                  <a href="#">Headphones</a>
+                  <a href="#">헤드폰</a>
                   <ul>
-                    <li><a href="#">Wireless Headphone</a></li>
-                    <li><a href="#">Bluetooth Headphone</a></li>
+                    <li><a href="#">무선 헤드폰</a></li>
+                    <li><a href="#">블루투스 헤드폰</a></li>
                   </ul>
                 <li class="child">
-                  <a href="#">Speaker</a>
+                  <a href="#">스피커</a>
                   <ul>
-                    <li><a href="#">Portable Speaker</a></li>
-                    <li><a href="#">Home Speaker</a></li>
-                    <li><a href="#">Surround Soundbar</a></li>
-                    <li><a href="#">Bass-Woofer Module</a></li>
+                    <li><a href="#">포터블 스피커</a></li>
+                    <li><a href="#">홈 스피커</a></li>
+                    <li><a href="#">서라운드 사운드바</a></li>
+                    <li><a href="#">베이스-우퍼 모듈</a></li>
                   </ul>
                 </li>
               </ul>
@@ -114,7 +123,7 @@
         <div id="srchBox">
           <h2 class="hidden">제품검색</h2>
           <form action="index.jsp">
-            <input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘" id="srch_icon" />
+            <a href="#"><input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘" id="srch_icon" /></a>
             <input type="search" id="srch" placeholder="제품 검색" maxlength="7" />
           </form>
         </div>
@@ -139,22 +148,22 @@
         </div>
       </div>
       <section class="theme">
-        <h2 class="">What's New? WAVES</h2>
+        <h2 class="sub_title">What's New? WAVES</h2>
         <ul class="themeList">
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product15.jpg" alt="제품01-1">
               <img src="imgs/product16.jpg" alt="제품01-2" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product04.jpg" alt="제품02-1">
               <img src="imgs/product13.jpg" alt="제품02-2" />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product15.jpg" alt="제품03-1">
               <img src="imgs/product12.jpg" alt="제품03-2" />
             </a>
@@ -162,35 +171,35 @@
         </ul>
       </section>
       <!-- 서브 배너 추가 -->
+      <h2 class="sub_title">HOT ITEMS</h2>
       <section class="sub_theme">
-        <h2 class="">HOT ITEMS</h2>
         <ul class="sub_themeList">
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product16.jpg" alt="제품01" />
               <span class="product_name">WH-1000XM</span>
               <p>더욱 완벽한 몰입<br> 노이즈 캔슬링으로 완성하다</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product13.jpg" alt="제품02" />
               <span class="product_name">WH-1000XM</span>
               <p>몰입을 넘어 소통까지<br> 혁신적인 노이즈 캔슬링</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product12.jpg" alt="제품03" />
               <span class="product_name">WH-1000XM</span>
-              <p>몰입을 넘어 소통까지<br> 혁신적인 노이즈 캔슬링</p>
+              <p>진정한 프로를 경험하다<br>흔들림 없는 액티비컬 사운드</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="imgs/product14.jpg" alt="제품04" />
               <span class="product_name">WH-1000XM</span>
-              <p>몰입을 넘어 소통까지<br> 혁신적인 노이즈 캔슬링</p>
+              <p>완벽하게 몰입하다<br>풍성한 베이스의 감각적인 사운드</p>
             </a>
           </li>
         </ul>
@@ -212,9 +221,11 @@
           </svg>
         </div>
         <!-- 커브 디바이더1 끝 -->
+        <h2 class="sub_title">WAVES's Speciality</h2>
+
         <div class="coInfo">
-          <h2 class="">WAVES's Speciality</h2>
           <section>
+            
             <a href="#">
               <div>
                 <h2 class="hidden">웨이브 사운드 소개</h2>
@@ -266,7 +277,7 @@
               </p>
               <p class="txt">
                 과거로부터 이어진 WAVES의 전시공간<br>
-                WAVES. Art Museum을 소개합니다. 하이 </p>
+                WAVES. Art Museum을 소개합니다.</p>
             </a>
             <div>
 
@@ -300,7 +311,7 @@
         <li>
           <a href="#">
             <img src="imgs/building_icon.png" alt="웨이브 아트 뮤지엄" />
-            <span>WAVES Art Museum<span>
+            <span>WAVES<br>Art Museum<span>
           </a>
         </li>
         <li>

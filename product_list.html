@@ -16,52 +16,75 @@
   <!-- Swiper main & Swiper 2 -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-
-
   <style>
+    @font-face {
+      font-family: 'Pretendard-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+
     /* Swiper_main 시작 */
     .swiper {
-        width: 100%;
-        /* height: 100%; */
-        background: #000;
-      }
+      width: 100%;
+      /* height: 100%; */
+      background: #000;
+    }
 
-      .swiper-slide {
-        font-size: 18px;
-        color: #fff;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding: 40px 60px;
-      }
+    .swiper-slide {
+      font-size: 18px;
+      color: #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+    }
 
-      .parallax-bg {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 130%;
-        /* height: 100%; */
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center;
-      }
+    .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 130%;
+      /* height: 100%; */
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
 
-      .swiper-slide .title {
-        font-size: 41px;
-        font-weight: 300;
-      }
+    .swiper-slide .title {
+      font-size: 41px;
+      font-weight: 300;
+    }
 
-      .swiper-slide .subtitle {
-        font-size: 21px;
-      }
+    .swiper-slide .subtitle {
+      font-size: 21px;
+    }
 
-      .swiper-slide .text {
-        font-size: 14px;
-        max-width: 400px;
-        line-height: 1.3;
-      }
+    .swiper-slide .text {
+      font-size: 14px;
+      max-width: 400px;
+      line-height: 1.3;
+    }
+
     /* Swiper_main 끝 */
 
+
+
+
+    .product_name {
+      text-align: center;
+      font: 1.1rem/2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+      font-weight: 600;
+      margin: 1rem 0 0 0;
+      color: #2e2e2e;
+    }
+
+    .sub_txt {
+      margin-top: 1rem;
+      font: 500 1.1rem/1.6rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+      text-align: center;
+      color: #4b4b4b;
+      margin: 1 rem 0 0 0;
+    }
 
     /* swiper 시작 */
     .swiper {
@@ -89,6 +112,7 @@
       -webkit-align-items: center;
       align-items: center;
     }
+
     .swiper-slide img {
       display: block;
       width: 100%;
@@ -112,6 +136,7 @@
       width: 100%;
       /* height: 100%; */
     }
+
     /* swiper 끝 */
 
 
@@ -159,30 +184,30 @@
             <ul>
               <!-- 메뉴1 -->
               <li>
-                <a href="#" class="main_menu">신제품</a>
+                <a href="product_list.html" class="main_menu">신제품</a>
                 <ul>
-                  <li><a href="#">2022's NEW</a></li>
+                  <li><a href="product_list.html">2022's NEW</a></li>
                   <li class="child">
-                    <a href="#">Ear fits</a>
+                    <a href="#">이어 핏</a>
                     <ul>
-                      <li><a href="#">In-ear fit</a></li>
-                      <li><a href="#">On-ear fit</a></li>
-                      <li><a href="#">Around-ear fit</a></li>
+                      <li><a href="#">인-이어 핏</a></li>
+                      <li><a href="#">온-이어 핏</a></li>
+                      <li><a href="#">어라운드-이어 핏</a></li>
                     </ul>
                   </li>
                   <li class="child">
-                    <a href="#">Headphones</a>
+                    <a href="#">헤드폰</a>
                     <ul>
-                      <li><a href="#">Wireless Headphone</a></li>
-                      <li><a href="#">Bluetooth Headphone</a></li>
+                      <li><a href="#">무선 헤드폰</a></li>
+                      <li><a href="#">블루투스 헤드폰</a></li>
                     </ul>
                   <li class="child">
-                    <a href="#">Speaker</a>
+                    <a href="#">스피커</a>
                     <ul>
-                      <li><a href="#">Portable Speaker</a></li>
-                      <li><a href="#">Home Speaker</a></li>
-                      <li><a href="#">Surround Soundbar</a></li>
-                      <li><a href="#">Bass-Woofer Module</a></li>
+                      <li><a href="#">포터블 스피커</a></li>
+                      <li><a href="#">홈 스피커</a></li>
+                      <li><a href="#">서라운드 사운드바</a></li>
+                      <li><a href="#">베이스-우퍼 모듈</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -240,7 +265,7 @@
           <div id="srchBox">
             <h2 class="hidden">제품검색</h2>
             <form action="index.jsp">
-              <input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘" id="srch_icon" />
+              <a href="#"><input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘" id="srch_icon" /></a>
               <input type="search" id="srch" placeholder="제품 검색" maxlength="7" />
             </form>
           </div>
@@ -259,70 +284,64 @@
 
 
             <!-- Swiper main -->
-            <div
-            style="--swiper-navigation-color: #000; --swiper-pagination-color: #000"
-            class="swiper mySwiper"
-          >
-            <div
-              class="parallax-bg"
-              style="
-                background-image: url();"data-swiper-parallax="-23%"
-            ></div>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="title" data-swiper-parallax="-300">Slide 1</div>
-                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-                <div class="text" data-swiper-parallax="-100">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                    dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                    laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-                    Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-                    Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                    ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                    tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-                  </p>
+            <div style="--swiper-navigation-color: #000; --swiper-pagination-color: #000" class="swiper mySwiper">
+              <div class="parallax-bg" style="
+                background-image: url();" data-swiper-parallax="-23%"></div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="title" data-swiper-parallax="-300">Slide 1</div>
+                  <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                  <div class="text" data-swiper-parallax="-100">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                      dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                      laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                      Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                      Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                      ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                      tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="title" data-swiper-parallax="-300">Slide 2</div>
+                  <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                  <div class="text" data-swiper-parallax="-100">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                      dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                      laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                      Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                      Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                      ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                      tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                  <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                  <div class="text" data-swiper-parallax="-100">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                      dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                      laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                      Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                      Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                      ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                      tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="title" data-swiper-parallax="-300">Slide 2</div>
-                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-                <div class="text" data-swiper-parallax="-100">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                    dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                    laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-                    Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-                    Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                    ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                    tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-                  </p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="title" data-swiper-parallax="-300">Slide 3</div>
-                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-                <div class="text" data-swiper-parallax="-100">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                    dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                    laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-                    Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-                    Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                    ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                    tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-                  </p>
-                </div>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-          </div>
 
             <!-- swiper main 끝 -->
 
-<!--  main banner!!! -->
+            <!--  main banner!!! -->
             <!-- <aside class="bg_item">
               <img class="scene-img" src="imgs/sub_imgs/05.jpg" alt="신제품 메인배너" />
             </aside> -->
@@ -333,22 +352,22 @@
           </div>
         </div>
         <section class="theme">
-          <h2 class="">What's New? WAVES</h2>
+          <h2 class="sub_title">What's New? WAVES</h2>
           <ul class="themeList">
             <li>
-              <a href="">
+              <a href="#">
                 <img src="imgs/product15.jpg" alt="제품01-1">
                 <img src="imgs/product16.jpg" alt="제품01-2" />
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="#">
                 <img src="imgs/product04.jpg" alt="제품02-1">
                 <img src="imgs/product13.jpg" alt="제품02-2" />
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="#">
                 <img src="imgs/product15.jpg" alt="제품03-1">
                 <img src="imgs/product12.jpg" alt="제품03-2" />
               </a>
@@ -370,10 +389,10 @@
                     <a href="#"><img src="imgs/sub_imgs/01.jpg" alt="제품01"></a>
                   </div>
                   <div class="textArea">
-                    <p class="txt">
+                    <p class="product_name">
                       혜택 2. 한정판 폴딩박스 증정
                     </p>
-                    <p class="txt">
+                    <p class="sub_txt">
                       11.02(화),11.04(목),11.06(토)에 진행되는 나이키 <br>
                       라이브를 통해 제품을 구매하신 나이키 멤버 중 <br>
                       각 일별 선착순 600분을 추첨하여 한정판 <br>
@@ -389,10 +408,10 @@
                     <a href="#"><img src="imgs/sub_imgs/03.jpg" alt="제품01"></a>
                   </div>
                   <div class="textArea">
-                    <p class="txt">
+                    <p class="product_name">
                       혜택 2. 한정판 폴딩박스 증정
                     </p>
-                    <p class="txt">
+                    <p class="sub_txt">
                       11.02(화),11.04(목),11.06(토)에 진행되는 나이키 <br>
                       라이브를 통해 제품을 구매하신 나이키 멤버 중 <br>
                       각 일별 선착순 600분을 추첨하여 한정판 <br>
@@ -579,7 +598,8 @@
             <div>
 
               <div class="custom-shape-divider-top-1635568810">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                  preserveAspectRatio="none">
                   <path
                     d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
                     opacity=".25" class="shape-fill"></path>
@@ -665,7 +685,7 @@
 
 
 
-    
+
 
 
     //    Initialize Swiper
