@@ -1,0 +1,428 @@
+main {
+    width: 75rem;
+    margin: 0 auto;
+}
+
+
+.main_menu {
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.main_bn_bg {
+    width: 100%;
+    margin-top: 4rem;
+
+}
+
+.main_banner {
+    position: relative;
+}
+
+.main_banner>.bg_item>img:first-child {
+    width: 100%;
+    margin: 0 auto;
+    max-height: 30rem;
+    object-fit: cover;
+
+}
+
+/* 메인배너 추가 */
+
+.main_banner>.bg_item>div>p:first-child {
+    font: 5rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #FFFFFF;
+    bottom: 5rem;
+}
+
+.main_banner>.bg_item>div>p:last-child {
+    font: 2rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #FFFFFF;
+    bottom: 1rem;
+
+}
+
+.theme {
+    width: 75rem;
+    height: 32rem;
+    margin: 10rem auto 15rem auto;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+.theme>ul {
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.theme>ul>li {
+    overflow: hidden;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme>ul>li>a {
+    position: relative;
+    display: block;
+}
+
+.theme>ul>li>a>img {
+    width: 20rem;
+    vertical-align: top;
+}
+
+.theme>ul>li>a>img:nth-child(2) {
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.theme>ul>li>a>img:not(:first-child) {
+    position: absolute;
+    height: 10rem;
+    bottom: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+.theme>ul:nth-child(2)>li>a>img:last-child {
+    height: 12rem;
+    width: auto;
+    bottom: -0.5rem;
+    right: -1.5rem;
+
+}
+
+.theme>ul:nth-child(3)>li>a>img:last-child {
+    height: 15rem;
+    width: 1rem;
+
+}
+
+/* 이벤트 */
+.theme>ul>li:hover>a>img:nth-child(2) {
+    opacity: 1;
+    bottom: 0rem;
+    right: 0rem;
+    overflow: hidden;
+}
+
+.theme>ul>li:nth-child(2):hover>a>img:first-child {
+    opacity: 1;
+    bottom: 10rem;
+    right: 0rem;
+    overflow: visible;
+}
+
+/* sub_theme 시작 */
+.sub_title {
+    font: 1.4rem/1.5rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 2rem;
+}
+
+.sub_theme {
+    width: 72rem;
+    height: 35rem;
+    margin: 1rem auto 6rem auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_themeList>li>a>span {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.sub_themeList>li>a>.product_name {
+    text-align: center;
+    font: 1.1rem/2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+    color: #2e2e2e;
+}
+
+.sub_themeList>li>a>p {
+    margin-top: 0.2rem;
+    font: 1rem/1.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #4b4b4b;
+}
+
+.sub_theme>ul {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 75rem;
+    height: 22rem;
+    margin: 2rem 0;
+    box-sizing: border-box;
+}
+
+.sub_theme>ul>li {
+    width: 15rem;
+    height: 25rem;
+    flex: 1 0 4rem;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HOT ITEMS */
+.sub_theme>ul>li>a {
+    position: relative;
+    height: 25rem;
+    display: block;
+    overflow: hidden;
+}
+
+.sub_theme>ul>li>a>img {
+    width: 100%;
+}
+
+/* 커브 디바이드 */
+.custom-shape-divider-top-1635413766 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1635413766 svg {
+    position: relative;
+    display: block;
+    width: calc(183% + 1.3px);
+    height: 143px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1635413766 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* 커브 디바이드 끝 - 아래요소 머리쪽에 붙어있음 */
+
+
+/* 회사 정보 */
+div.contents {
+    width: 75rem;
+}
+
+div.contents>.sub_title {
+    font: 1.4rem/1.5rem  'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 1rem;
+    padding-top: 25rem;
+    color: #000;
+}
+
+/* 커브드1 아래 */
+div.contents>div.coInfo {
+    width: 75rem;
+    margin-top: 5rem;
+    padding-bottom: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 0 30rem;
+
+}
+
+div.contents>div.coInfo>section {
+    padding-bottom: 3rem;
+    flex: 0 1 auto;
+    width: calc(50% - 3rem);
+}
+
+/* div.contents>div.coInfo>section:nth-child(1),
+div.contents>div.coInfo>section:nth-child(2) {}
+
+div.contents>div.coInfo>section:nth-child(odd) {} */
+div.contents>div.coInfo>section:nth-child(even) {
+    margin-left: -1rem;
+}
+
+div.contents>div.coInfo>section>a {
+    display: block;
+}
+
+div.contents>div.coInfo>section>a>div {
+    margin: 0 2rem;
+}
+
+div.contents>div.coInfo>section>a>p.pic {
+    margin-top: 3rem;
+    height: 22rem;
+}
+
+div.contents>div.coInfo>section>a>p.pic>img {
+    vertical-align: top;
+    width: 100%;
+    height: 22rem;
+}
+
+
+/* WAVES Spaciality - 하단 text */
+.txt {
+    font: 500 1.1rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    color: #4b4b4b;
+    margin: 1rem 0 0 0;
+}
+
+section.etc {
+    width: 75rem;
+    margin: 0 auto;
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+}
+
+section.etc>ul {
+    margin: 17rem 0 5rem 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.themeList>li {
+    width: 20rem;
+    margin: 0;
+    /* height: 100%; */
+
+}
+
+.themeList>li>a>img {
+    width: 100%;
+
+}
+
+.product_name {
+    text-align: center;
+    font: 1.1rem/2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+    color: #2e2e2e;
+}
+
+.sub_txt {
+    margin-top: 1rem;
+    font: 500 1.1rem/1.6rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    color: #4b4b4b;
+    margin: 1 rem 0 0 0;
+}
+
+/* swiper 시작 */
+.swiper {
+    width: 75rem;
+    /* height: 100%; */
+    background-color: #F5F5F5;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #F5F5F5;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.bx_group {
+    display: flex;
+    padding: 2rem;
+    /* justify-content: space-around; */
+}
+
+.bx_group>div {
+    flex: 1;
+    /* border: 1px solid gray; */
+    padding: 2rem;
+}
+
+.bx_group>div>a {
+    width: 100%;
+}
+
+.btnArea {
+    margin-top: 1.5rem;
+}
+
+.btnArea>a {
+    font: 1rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    display: inline-block;
+    color: #E9E9E9;
+    /* color: #222; */
+    /* background-color: #E9E9E9; */
+    background-color: #3f3f3f;
+    width: 5.2rem;
+
+}
+
+/* swiper 끝 */
+
+
+/* 커브드2 */
+.etc.custom-shape-divider-sub {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-sub svg {
+    position: relative;
+    display: block;
+    width: calc(165% + 1.3px);
+    height: 90px;
+    transform: rotateY(180deg);
+    width: 75rem;
+}
+
+.custom-shape-divider-sub .shape-fill {
+    fill: #F5F5F5;
+}
+
+section.sub_etc {
+    background-color: #ffff;
+    width: 75rem;
+    margin: 0 auto;
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+}
+
+p.dirTop {
+    background-color: #ffff;
+}

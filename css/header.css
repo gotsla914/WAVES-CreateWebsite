@@ -110,7 +110,7 @@ header>div>nav>ul>li>ul>li {
     border-bottom: 1px solid #e2e2e2;
 }
 
-header>div>nav>ul>li:nth-child(3)>a {}
+/* header>div>nav>ul>li:nth-child(3)>a {} */
 
 header>div>nav>ul>li>ul>li>a {
     font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
@@ -124,7 +124,7 @@ header>div>nav>ul>li>ul>li>a {
 }
 
 /* 신제품 스토어 고객지원 */
-header>div>nav>ul>li:hover {}
+/* header>div>nav>ul>li:hover {} */
 
 header>div>nav>ul>li>ul>li.child {
     background: url(../imgs/btn_depth_on.png) no-repeat 10.2rem 50%;

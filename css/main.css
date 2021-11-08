@@ -6,24 +6,55 @@ main {
 main>div {
     position: relative;
     margin: 0 auto 0 0;
-    background-color: #ebebeb;
+    background-color: #EBEBEB;
 }
 
-.sub_title {
-    font: 1.4rem/1.5rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
-    text-align: center;
+.main_menu {
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font-size: 1.1rem;
     font-weight: 800;
-    margin: 2rem;
 }
 
 .main_bn_bg {
     width: 100%;
     margin-top: 4rem;
+    
 }
 
-.main_banner>aside>img {
-    max-width: 100%;
+.main_banner{
+    position: relative;
+}
+
+.main_banner>.bg_item>img:first-child {
+    width: 100%;
     margin: 0 auto;
+    max-height: 30rem;
+    object-fit: cover;
+
+}
+
+/* 메인배너 추가 */
+.main_banner>.bg_tiem>div{
+    width: 75rem;
+    height: 5rem;
+  }
+/* Main banner typography */
+.main_banner>.bg_item>div>p {
+    position: absolute;
+    right: 0;
+
+}
+.main_banner>.bg_item>div>p:first-child {
+    font: 5rem/1.2rem 'Pretendard-Regular','Noto Sans KR','Nanum Gothic', sans-serif;
+    color: #FFFFFF;
+    bottom: 5rem;
+}
+
+.main_banner>.bg_item>div>p:last-child {
+    font: 2rem/1.2rem 'Pretendard-Regular','Noto Sans KR','Nanum Gothic', sans-serif;
+    color: #FFFFFF;
+    bottom: 1rem;
+    
 }
 
 .theme {
@@ -230,10 +261,10 @@ div.contents>div.coInfo>section {
     width: calc(50% - 3rem);
 }
 
-div.contents>div.coInfo>section:nth-child(1),
+/* div.contents>div.coInfo>section:nth-child(1),
 div.contents>div.coInfo>section:nth-child(2) {}
 
-div.contents>div.coInfo>section:nth-child(odd) {}
+div.contents>div.coInfo>section:nth-child(odd) {} */
 div.contents>div.coInfo>section:nth-child(even) {
     margin-left: -1rem;
 }
@@ -262,7 +293,7 @@ div.contents>div.coInfo>section>a>p.pic>img {
 .txt {
     font: 500 1.1rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: center;
-    color: #4b4b4b;
+    color: #222;
     margin: 1rem 0 0 0;
 }
 
@@ -274,7 +305,7 @@ section.etc {
 }
 
 section.etc>ul {
-    margin: 7rem 0 5rem 0;
+    margin: 17rem 0 5rem 0;
     display: flex;
     justify-content: flex-end;
 }
@@ -320,9 +351,9 @@ section.etc>ul>li>a>span {
     margin: 0 0.5rem;
 }
 
-section.etc>ul>li:nth-child(2)>a>img {}
+/* section.etc>ul>li:nth-child(2)>a>img {}
 
-section.etc>ul>li:nth-child(3)>a>img {}
+section.etc>ul>li:nth-child(3)>a>img {} */
 
 /* 커브드2 */
 .etc.custom-shape-divider-top-1635568810 {
