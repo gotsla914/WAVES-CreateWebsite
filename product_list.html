@@ -33,7 +33,7 @@
 
     .swiper-slide {
       font-size: 18px;
-      color: #fff;
+      color: #222;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       padding: 40px 60px;
@@ -48,12 +48,13 @@
       -webkit-background-size: cover;
       background-size: cover;
       background-position: center;
-      background-image: url(imgs/sub_imgs/05.jpg);
+      background-image: url(imgs/sub_imgs/05.png);
     }
 
     .swiper-slide .title {
       font-size: 41px;
       font-weight: 300;
+
     }
 
     .swiper-slide .subtitle {
@@ -68,8 +69,10 @@
 
     /* Swiper_main 끝 */
 
+    /* 중앙 상품추가, 정렬 */
+    .theme>ul {
 
-
+    }
 
     .product_name {
       text-align: center;
@@ -680,7 +683,6 @@
   </div>
 
   <script>
-    
     //    Initialize Swiper
     var swiper = new Swiper(".mySwiper", {
       pagination: {

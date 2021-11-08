@@ -297,7 +297,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: red;
+  background: #007aff;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;

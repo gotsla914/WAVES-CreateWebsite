@@ -104,6 +104,13 @@ main>div {
 }
 
 /* sub_theme 시작 */
+.sub_title {
+    font: 1.4rem/1.5rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin: 2rem;
+}
+
 .sub_theme {
     width: 72rem;
     height: 35rem;
@@ -136,20 +143,19 @@ main>div {
 }
 
 .sub_theme>ul {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     width: 75rem;
     height: 22rem;
-    display: flex;
     margin: 2rem 0;
-    display: flex;
     box-sizing: border-box;
-    justify-content: space-between;
 }
 
 .sub_theme>ul>li {
     width: 15rem;
     height: 25rem;
-    flex: 1 0 10rem;
+    flex: 1 0 4rem;
     margin: 1rem;
     justify-content: space-between;
     align-items: center;

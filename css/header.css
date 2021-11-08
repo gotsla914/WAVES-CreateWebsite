@@ -62,13 +62,8 @@ header>.center>h1 {
     margin-bottom: 1rem;
 }
 
-.main_menu {
-    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 800;
-}
-
 /* 네비게이터 */
+
 header>div>nav {
     height: 3rem;
     float: left;
