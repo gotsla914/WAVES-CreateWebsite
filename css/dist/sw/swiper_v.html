@@ -58,14 +58,14 @@
         <div class="swiper-slide">
           <!-- 내부 슬라이더 -->
           <div class="swiper-container" id="swiper_h">
-              <ul class="swiper-wrapper">
-                  <li class="swiper-slide">1</li>
-                  <li class="swiper-slide">2</li>
-                  <li class="swiper-slide">3</li>
-                  <li class="swiper-slide">4</li>
-                  <li class="swiper-slide">5</li>
-              </ul>
-              <div class="swiper-pagination" id="paging_h"></div>
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">1</li>
+              <li class="swiper-slide">2</li>
+              <li class="swiper-slide">3</li>
+              <li class="swiper-slide">4</li>
+              <li class="swiper-slide">5</li>
+            </ul>
+            <div class="swiper-pagination" id="paging_h"></div>
           </div>
         </div>
         <div class="swiper-slide">Slide 2</div>
@@ -85,25 +85,25 @@
     <!-- Swiper JS -->
     <script src="../js/swiper.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper_v = new Swiper('#swiper_v', {
-      direction: 'vertical',
-      pagination: {
-        el: '#paging_v',
-        clickable: true,
-        dynamicBullets:true
-      },
-      loop:true
-    });
-      
-    var swiper_h = new Swiper('#swiper_h',{
-         pagination: {
-            el: '#paging_h',
-            clickable: true
-          },
-          loop:true
-    });
-  </script>
-</body>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper_v = new Swiper("#swiper_v", {
+        direction: "vertical",
+        pagination: {
+          el: "#paging_v",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        loop: true,
+      });
+
+      var swiper_h = new Swiper("#swiper_h", {
+        pagination: {
+          el: "#paging_h",
+          clickable: true,
+        },
+        loop: true,
+      });
+    </script>
+  </body>
 </html>
