@@ -3,7 +3,7 @@ var num = 0;
 var autoBanner = setInterval(function(){
     middleGate();
     
-}, 5000);
+}, 6500);
 
 function middleGate(){
     num++;
@@ -37,7 +37,7 @@ $(".prevBtn").click(function(){
         autoBanner = setInterval(function(){
                         middleGate();
 
-                        }, 5000);
+                        }, 6500);
     }
 });
 $(".nextBtn").click(function(){
@@ -51,7 +51,7 @@ $(".nextBtn").click(function(){
         autoBanner = setInterval(function(){
                         middleGate();
 
-                    }, 5000);
+                    }, 6500);
     }
 });
 
@@ -69,7 +69,7 @@ $("#bannerBullet").children("li").click(function(){
         autoBanner = setInterval(function(){
                         middleGate();
 
-                    }, 5000);
+                    }, 6500);
     }
 });
 
@@ -91,7 +91,7 @@ $(".bannerPlay").click(function(){
        autoBanner = setInterval(function(){
                         middleGate();
 
-                    }, 5000);
+                    }, 6500);
     }
     
 });
