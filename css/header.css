@@ -50,9 +50,9 @@ header>.center>h1 {
     justify-content: end;
     margin: 0 auto;
     width: 75rem;
-    height: 3.5rem;
+    height: 100px;
     display: flex;
-
+    
 }
 
 .center>h1>a>img {
@@ -206,7 +206,7 @@ header>div>nav>ul>li>ul>li:hover>ul {
 #srchBox>form>a>.srch_icon {
     cursor: pointer;
     position: absolute;
-    bottom: 0.4rem;
+    bottom: 3.12rem;
     right: 0.5rem;
     z-index: 999;
 }

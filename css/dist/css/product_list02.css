@@ -25,18 +25,27 @@
 }
 
 #banner>ul#bannerList>li:nth-child(1) {
-    background: url(../../../imgs/sub_imgs/banner_image_waves.jpg) no-repeat 0 0;
-    object-fit: cover;
+    background: url(../../../imgs/sub_imgs/08.jpg) no-repeat 0 0;
+    background-size: 100%;
+    width: auto;
+    height: 36rem;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    
+    /* object-fit: cover; */
 }
-
+#banner>ul#bannerList>li{
+    
+}
 #banner>ul#bannerList>li:nth-child(2) {
     background: url(../../../imgs/sub_imgs/marble.gif) no-repeat 50% 0;
     object-fit: cover;
 }
 
 #banner>ul#bannerList>li:nth-child(3) {
-    background: url(../../../imgs/sub_imgs/06.jpg) no-repeat 0 0;
-    object-fit: cover;
+    background: url(../../../imgs/sub_imgs/08.jpg) no-repeat 0 0;
+    background-size: 100%;
+    margin-top: 5rem;
 }
 
 /* 배너 중심div */
@@ -50,30 +59,65 @@
     position: relative;
 }
 
-/* 배너-비디오박스 */
-/* #banner>ul#bannerList>li>.center>.videoBox {
-    margin-top: -11rem;
+.mid-banner{
+width:50rem;
+
+}
+.mid-banner>img{
+width: 50rem;
+}
+
+
+/* 섹션-비디오박스 */
+.videoWrapper{
+    position: relative;
+    /* border: 1rem solid #BDA092;
+    box-sizing: border-box; */
+    overflow: hidden;
+}
+
+.videoWrapper>.videoBox {
+    width: 75rem;
+    margin: 0 auto;
+    height: 25rem;
+    overflow: hidden;
+}
+.videoWrapper>.videoBox>video {
+    /* opacity: 0.9; */
+    display: block;
     width: 75rem;
     overflow: hidden;
-} */
+}
+.videoWrapper>p {
+    position: absolute;
+    top: -1.49rem;
+    left: calc(50% - 0.7rem);
+    font: 700 3.1rem/10.7rem 'Pretendard-Regular',"Noto Sans KR", sans-serif;
+    text-shadow: 0.1rem 0.1rem 0 rgb(116, 94, 94);
+    color: #fff;
+    text-align: right;
+}
 
-/* #banner>ul#bannerList>li>.center>.videoBox>video {
-    width: 90rem;
-    padding-bottom: 6rem;
-} */
+.videoWrapper>p:last-child {
+    position: absolute;
+    top: 2.8rem;
+    right: 10rem;
+    font: 900 4.1rem/10.7rem 'Pretendard-Regular',"Noto Sans KR", sans-serif;
+    text-shadow: 0.1rem 0.1rem 0 rgb(116, 94, 94);
+    color: #fff;
+    text-align: right;
+}
 
 /* 배너 제목! */
 #banner>ul#bannerList>li>div.center>strong {
     position: absolute;
-    right: 0;
-    bottom: 25rem;
+    left: -7.8rem;
+    top: 3rem;
     padding-right: 2rem;
-    display: block;
-    width: 75rem;
+    /* display: block; */
     /* background-color: royalblue; */
-    text-align: left;
-    font: 700 3.1rem/15.7rem 'MaruBuri-Regular', "Noto Sans KR", sans-serif;
-    text-shadow:0.1rem 0.1rem 0 rgb(116, 94, 94); 
+    font: 700 3.1rem/13rem 'MaruBuri-Regular', "Noto Sans KR", sans-serif;
+    text-shadow: 0.1rem 0.1rem 0 rgb(116, 94, 94);
     color: rgb(214, 153, 153);
 }
 
@@ -186,13 +230,14 @@
     border-radius: 0.5rem;
     transition: all .3s ease;
 }
+
 /* 불렛 컬러*/
 
 #banner>div#controllBox>div#bannerController>ul#bannerBullet>li.on {
     width: 2rem;
     /* background: rgb(173, 143, 190); */
     background: #C6AB9A;
-    
+
 }
 
 

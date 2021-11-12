@@ -18,10 +18,10 @@ main>div {
 .main_bn_bg {
     width: 100%;
     margin-top: 4rem;
-    
+
 }
 
-.main_banner{
+.main_banner {
     position: relative;
 }
 
@@ -34,27 +34,29 @@ main>div {
 }
 
 /* 메인배너 추가 */
-.main_banner>.bg_tiem>div{
+.main_banner>.bg_tiem>div {
     width: 75rem;
     height: 5rem;
-  }
+}
+
 /* Main banner typography */
 .main_banner>.bg_item>div>p {
     position: absolute;
     right: 0;
 
 }
+
 .main_banner>.bg_item>div>p:first-child {
-    font: 5rem/1.2rem 'Pretendard-Regular','Noto Sans KR','Nanum Gothic', sans-serif;
+    font: 5rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #FFFFFF;
     bottom: 5rem;
 }
 
 .main_banner>.bg_item>div>p:last-child {
-    font: 2rem/1.2rem 'Pretendard-Regular','Noto Sans KR','Nanum Gothic', sans-serif;
+    font: 2rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #FFFFFF;
     bottom: 1rem;
-    
+
 }
 
 .theme {
@@ -261,10 +263,6 @@ div.contents>div.coInfo>section {
     width: calc(50% - 3rem);
 }
 
-/* div.contents>div.coInfo>section:nth-child(1),
-div.contents>div.coInfo>section:nth-child(2) {}
-
-div.contents>div.coInfo>section:nth-child(odd) {} */
 div.contents>div.coInfo>section:nth-child(even) {
     margin-left: -1rem;
 }
@@ -335,7 +333,7 @@ section.etc>ul>li>a {
     align-items: center;
     height: 3.7rem;
     width: auto;
-    font: 700 1rem/1.3rem 'Noto Sans KR','Nanum Gothic', sans-serif;
+    font: 700 1rem/1.3rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #4b4b4b;
 
 }
