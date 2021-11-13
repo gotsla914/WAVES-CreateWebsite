@@ -34,9 +34,7 @@
     
     /* object-fit: cover; */
 }
-#banner>ul#bannerList>li{
-    
-}
+#banner>ul#bannerList>li{}
 #banner>ul#bannerList>li:nth-child(2) {
     background: url(../../../imgs/sub_imgs/marble.gif) no-repeat 50% 0;
     object-fit: cover;
