@@ -15,7 +15,7 @@
     position: absolute;
     width: 100%;
     height: 34rem;
-    /* object-fit: cover; */
+    /* margin-top: 5rem; */
 }
 
 #banner>ul#bannerList>li.on {
@@ -25,14 +25,10 @@
 }
 
 #banner>ul#bannerList>li:nth-child(1) {
-    background: url(../../../imgs/sub_imgs/08.jpg) no-repeat 0 0;
+    background: url(../../../imgs/sub_imgs/111.jpg) no-repeat 0 0;
     background-size: 100%;
-    width: auto;
-    height: 36rem;
-    box-sizing: border-box;
-    margin-top: 5rem;
-    
-    /* object-fit: cover; */
+    width: 75rem;
+    margin: 0 auto;
 }
 #banner>ul#bannerList>li{}
 #banner>ul#bannerList>li:nth-child(2) {
@@ -107,6 +103,7 @@ width: 50rem;
 }
 
 /* 배너 제목! */
+
 #banner>ul#bannerList>li>div.center>strong {
     position: absolute;
     left: -7.8rem;
@@ -114,37 +111,46 @@ width: 50rem;
     padding-right: 2rem;
     /* display: block; */
     /* background-color: royalblue; */
-    font: 700 3.1rem/13rem 'MaruBuri-Regular', "Noto Sans KR", sans-serif;
-    text-shadow: 0.1rem 0.1rem 0 rgb(116, 94, 94);
-    color: rgb(214, 153, 153);
+    font: 900 3.1rem/13rem "Noto Sans KR", sans-serif;
+    text-shadow: 0.1rem 0.1rem 0 #fff;
+    color: #222;
 }
 
+
 /* 배너 내용 P */
+        /* 1번 배너 위치 */
+#banner>ul#bannerList>li>div.center>.bannerText{
+    /* background-color: rgb(76, 57, 87); */
+
+}
+
 #banner>ul#bannerList>li>div.center>p {
     /* background-color: rgb(173, 143, 190); */
     position: absolute;
-    left: 8rem;
+    left: -5rem;
     bottom: 13rem;
     padding-right: 2rem;
     color: #222;
+    text-shadow: 0.1rem 0.1rem 0 #fff;
     font: 700 2rem/2.4rem "Pretendard-Regular", "Noto Sans KR", sans-serif;
 }
 
 
 /* 자세히보기 */
 #banner>ul#bannerList>li>div.center>a {
+    cursor: pointer;
     display: block;
     position: absolute;
-    right: 25rem;
+    right: 15rem;
     bottom: 15rem;
     margin-top: 2.5rem;
-    width: 6.2rem;
+    width: 6.5rem;
     height: 2.4rem;
-    /* border: 0.1rem solid #fff; */
+    border: 0.1rem solid #c2c2c2;
     text-align: center;
     font: 1.2rem/2.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #fff;
-    background-color: #222
+    background-color: #222;
 }
 
 
