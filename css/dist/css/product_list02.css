@@ -14,8 +14,8 @@
     display: none;
     position: absolute;
     width: 100%;
-    height: 34rem;
-    /* margin-top: 5rem; */
+    height: 38rem;  
+    background-size: cover;
 }
 
 #banner>ul#bannerList>li.on {
@@ -26,20 +26,14 @@
 
 #banner>ul#bannerList>li:nth-child(1) {
     background: url(../../../imgs/sub_imgs/111.jpg) no-repeat 0 0;
-    background-size: 100%;
-    width: 75rem;
-    margin: 0 auto;
 }
-#banner>ul#bannerList>li{}
+
 #banner>ul#bannerList>li:nth-child(2) {
-    background: url(../../../imgs/sub_imgs/marble.gif) no-repeat 50% 0;
-    object-fit: cover;
+    background: url(../../../imgs/sub_imgs/122.jpg) no-repeat 0 0;
 }
 
 #banner>ul#bannerList>li:nth-child(3) {
-    background: url(../../../imgs/sub_imgs/08.jpg) no-repeat 0 0;
-    background-size: 100%;
-    margin-top: 5rem;
+    background: url(../../../imgs/sub_imgs/133.jpg) no-repeat 0 0;
 }
 
 /* 배너 중심div */
@@ -61,84 +55,32 @@ width:50rem;
 width: 50rem;
 }
 
-
-/* 섹션-비디오박스 */
-.videoWrapper{
-    position: relative;
-    /* border: 1rem solid #BDA092;
-    box-sizing: border-box; */
-    overflow: hidden;
-}
-
-.videoWrapper>.videoBox {
-    width: 75rem;
-    margin: 0 auto;
-    height: 25rem;
-    overflow: hidden;
-}
-.videoWrapper>.videoBox>video {
-    /* opacity: 0.9; */
-    display: block;
-    width: 75rem;
-    overflow: hidden;
-}
-.videoWrapper>p {
-    position: absolute;
-    top: -1.49rem;
-    left: calc(50% - 0.7rem);
-    font: 700 3.1rem/10.7rem 'Pretendard-Regular',"Noto Sans KR", sans-serif;
-    text-shadow: 0.1rem 0.1rem 0 rgb(116, 94, 94);
-    color: #fff;
-    text-align: right;
-}
-
-.videoWrapper>p:last-child {
-    position: absolute;
-    top: 2.8rem;
-    right: 10rem;
-    font: 900 4.1rem/10.7rem 'Pretendard-Regular',"Noto Sans KR", sans-serif;
-    text-shadow: 0.1rem 0.1rem 0 rgb(116, 94, 94);
-    color: #fff;
-    text-align: right;
-}
-
 /* 배너 제목! */
-
 #banner>ul#bannerList>li>div.center>strong {
     position: absolute;
     left: -7.8rem;
     top: 3rem;
     padding-right: 2rem;
-    /* display: block; */
-    /* background-color: royalblue; */
     font: 900 3.1rem/13rem "Noto Sans KR", sans-serif;
     text-shadow: 0.1rem 0.1rem 0 #fff;
     color: #222;
 }
 
-
 /* 배너 내용 P */
-        /* 1번 배너 위치 */
-#banner>ul#bannerList>li>div.center>.bannerText{
-    /* background-color: rgb(76, 57, 87); */
-
-}
-
 #banner>ul#bannerList>li>div.center>p {
-    /* background-color: rgb(173, 143, 190); */
     position: absolute;
-    left: -5rem;
-    bottom: 13rem;
+    left: -7.59rem;
+    top: 7rem;
     padding-right: 2rem;
     color: #222;
     text-shadow: 0.1rem 0.1rem 0 #fff;
-    font: 700 2rem/2.4rem "Pretendard-Regular", "Noto Sans KR", sans-serif;
+    font: 700 2.8rem/3.6rem "Pretendard-Regular", "Noto Sans KR", sans-serif;
 }
 
 
 /* 자세히보기 */
 #banner>ul#bannerList>li>div.center>a {
-    cursor: pointer;
+    /* cursor: pointer;
     display: block;
     position: absolute;
     right: 15rem;
@@ -150,7 +92,7 @@ width: 50rem;
     text-align: center;
     font: 1.2rem/2.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #fff;
-    background-color: #222;
+    background-color: #222; */
 }
 
 
@@ -163,7 +105,6 @@ width: 50rem;
     top: 0;
     width: 100rem;
     height: 40rem;
-    /* background-color: rosybrown; */
 }
 
 #banner>div#controllBox>p.prevBtn {
@@ -172,7 +113,7 @@ width: 50rem;
     top: 19rem;
     width: 3rem;
     height: 5rem;
-    background: url(../../../imgs/T_arrow_icon.png) no-repeat 100% -45rem;
+    background: url(imgs/sub_imgs/pause_icon.png) no-repeat 100% -45rem;
     /* 사진 안나옴~~~~~js문젠감! */
     font-size: 0;
     line-height: 0;
@@ -192,13 +133,12 @@ width: 50rem;
     z-index: 999999;
 }
 
-
 /* 배너 컨트롤러 */
 /* 컨트롤러 박스-가로로 길쭉 */
 #banner>div#controllBox>div#bannerController {
     position: absolute;
     z-index: 200;
-    bottom: 6.5rem;
+    bottom: 3rem;
     width: 100%;
     height: 1rem;
     text-align: center;
@@ -211,12 +151,11 @@ width: 50rem;
     display: inline-block;
     width: 1rem;
     height: 1rem;
-    background: url(../../../imgs/sub_imgs/play_icon.png) no-repeat 100% 100%;
+    background: url(../../../imgs/sub_imgs/play_icon.png) no-repeat 0 0;
     cursor: pointer;
 }
 
 #banner>div#controllBox>div#bannerController>p.bannerPlay.off {
-    /* background-position: 0 0; */
     background: url(../../../imgs/sub_imgs/pause_icon.png) no-repeat 0 0;
 }
 
@@ -240,11 +179,29 @@ width: 50rem;
 #banner>div#controllBox>div#bannerController>ul#bannerBullet>li.on {
     width: 2rem;
     /* background: rgb(173, 143, 190); */
-    background: #C6AB9A;
+    background: #DADADA;
 
 }
 
 
+/* -------------------------- */
+/* what's new - 배경바꿈 */
+main>div{ 
+    background-color: #fff;
+}
+
+/* 중간아래배너 사진 크기 */
+.midBanner {
+    width: 75rem;
+    margin: 0 auto;
+}
+.midBanner>img {
+    width: 75rem;
+}
+
+.shape-fill{
+    fill: #969D9F;
+}
 /* -------------------------- */
 
 
