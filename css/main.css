@@ -121,12 +121,38 @@ main>div {
 
 }
 
+/* 상품 - 효과 추가 이벤트  */
+.theme>ul>li:hover>a>p {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.3rem;
+    opacity: 1;
+    font: 1.3rem/1.7rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #2e2e2e;
+    text-shadow: 0.05rem 0.05rem 0 #fff;
+    text-align: right;
+    font-weight: 900;
+    transition: ease-in;
+    
+}
+.theme>ul>li:hover>a>img:nth-child(1) {
+    opacity: 1;
+    bottom: 10rem;
+    right: 0rem;
+    overflow: visible;
+}
+/* 상품 - 효과 추가 이벤트끝  */
+/* ----------------------- */
 /* 이벤트 */
 .theme>ul>li:hover>a>img:nth-child(2) {
     opacity: 1;
     bottom: 0rem;
     right: 0rem;
+    left: 0;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /* 수정됨 1117-1246 */
 }
 
 .theme>ul>li:nth-child(2):hover>a>img:first-child {
@@ -138,7 +164,7 @@ main>div {
 
 /* sub_theme 시작 */
 .sub_title {
-    font: 1.4rem/1.5rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 1.4rem/1.5rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: center;
     font-weight: 800;
     margin: 2rem;
@@ -348,10 +374,6 @@ section.etc>ul>li>a>img:nth-child(1) {
 section.etc>ul>li>a>span {
     margin: 0 0.5rem;
 }
-
-/* section.etc>ul>li:nth-child(2)>a>img {}
-
-section.etc>ul>li:nth-child(3)>a>img {} */
 
 /* 커브드2 */
 .etc.custom-shape-divider-top-1635568810 {
