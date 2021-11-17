@@ -72,8 +72,8 @@ main>.sub_page_theme>.sub_page_themeList {
 main>.sub_page_theme>.sub_page_themeList>li {
     flex: 1 0 15rem;
 }
-
-main>.sub_page_theme>.sub_page_themeList>li>a {}
+/* 
+main>.sub_page_theme>.sub_page_themeList>li>a {} */
 
 main>.sub_page_theme>.sub_page_themeList>li>a>img {
     width: 100%;
@@ -93,8 +93,8 @@ main>.sub_page_theme2>.sub_page_themeList2>li {
     flex: 1 0 15rem;
     padding: 2.2rem 1rem;
 }
-
-main>.sub_page_theme2>.sub_page_themeList2>li>a {}
+/* 
+main>.sub_page_theme2>.sub_page_themeList2>li>a {} */
 
 main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
     width: 100%;
