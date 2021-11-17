@@ -127,12 +127,11 @@ main>div {
     bottom: 1.5rem;
     right: 1.3rem;
     opacity: 1;
-    font: 1.3rem/1.7rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 1.1rem/1.7rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #2e2e2e;
     text-shadow: 0.05rem 0.05rem 0 #fff;
     text-align: right;
     font-weight: 900;
-    
 }
 .theme>ul>li:hover>a>img:nth-child(1) {
     opacity: 1;
