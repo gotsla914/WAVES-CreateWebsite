@@ -203,6 +203,24 @@ main>div{
     fill: #969D9F;
 }
 /* -------------------------- */
+/* aside 이미지 추가 */
+.wave-img-wrapper {
+    width: 75rem;
+    margin: 0 auto;
+    background-size: cover;
+}
+.wave-img-wrapper>.wave-img {
+    background: url(../../../imgs/sub_imgs/banner_image_horizontal01.jpg) no-repeat 0 0;
+    width: 100%;
+    height: 70rem;
+    background-size: cover;
+    
+}
+
+
+
+
+/* -------------------------- */
 
 
 /* 하단 Style */

@@ -83,14 +83,18 @@ main>.sub_page_theme>.sub_page_themeList>li>a>img {
 
 
 /* sub banner 2 */
+main>.sub_page_theme2 {
+    margin: 0 auto;
+    width: 60rem;
+}
+
 main>.sub_page_theme2>.sub_page_themeList2 {
     display: flex;
-    width: 75rem;
     flex-wrap: wrap;
 }
 
 main>.sub_page_theme2>.sub_page_themeList2>li {
-    flex: 1 0 15rem;
+    flex: 1 0 12rem;
     padding: 2.2rem 1rem;
 }
 /* 
