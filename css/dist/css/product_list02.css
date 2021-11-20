@@ -41,7 +41,7 @@
     width: 75rem;
     padding-top: 10rem;
     transform: translateX(10rem);
-    height: 34rem;
+    height: 32rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -80,11 +80,11 @@ width: 50rem;
 
 /* 자세히보기 */
 #banner>ul#bannerList>li>div.center>a {
-    /* cursor: pointer;
+    cursor: pointer;
     display: block;
     position: absolute;
-    right: 15rem;
-    bottom: 15rem;
+    right: 13rem;
+    bottom: 7rem;
     margin-top: 2.5rem;
     width: 6.5rem;
     height: 2.4rem;
@@ -92,7 +92,7 @@ width: 50rem;
     text-align: center;
     font: 1.2rem/2.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #fff;
-    background-color: #222; */
+    background-color: #3f3f3f;
 }
 
 

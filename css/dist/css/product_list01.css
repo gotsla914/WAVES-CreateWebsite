@@ -49,9 +49,9 @@ main>.middle-aside-wrapper>.middle-aside {
 
 .middle-aside>p {
     position: absolute;
-    bottom: 3rem;
+    top: 3.5rem;
     left: 14%;
-    font: 900 2rem /3rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 900 2.5rem/3.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: left;
     text-shadow: 0.2rem 0.1rem 0 #2e2e2e;
     color: #fff;
@@ -95,9 +95,6 @@ main>.sub_page_theme>.sub_page_themeList>li {
     flex: 1 0 15rem;
 }
 
-/* 
-main>.sub_page_theme>.sub_page_themeList>li>a {} */
-
 main>.sub_page_theme>.sub_page_themeList>li>a>img {
     width: 100%;
 }
@@ -122,13 +119,9 @@ main>.sub_page_theme2>.sub_page_themeList2>li {
     padding: 2.2rem 1rem;
 }
 
-/* 
-main>.sub_page_theme2>.sub_page_themeList2>li>a {} */
-
 main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
     width: 100%;
 }
-
 /* sub banner 2 끝 */
 
 
@@ -199,3 +192,4 @@ section.etc>ul>li>a>img:nth-child(1) {
 section.etc>ul>li>a>span {
     margin: 0 0.5rem;
 }
+

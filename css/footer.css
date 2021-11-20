@@ -1,44 +1,40 @@
-footer{
+footer {
     width: 100%;
-    /* border-top: 0.1px solid #c9c9c9; */
-    /* border-top: 0.1px solid #a1a1a1; */
     box-sizing: border-box;
 }
-.footer_wrap{
+.footer_wrap {
   width: 100vh;  
 }
 footer>div.footerTop>div,
-footer>div.footerBtm>corpInfo{
+footer>div.footerBtm>corpInfo {
     width: 75rem;
 margin: 0 auto
 }
-footer>div.footerTop{
+footer>div.footerTop {
     padding-top: 0.5rem;
     height: 2rem; background: #f6f6f6;
 }
 
-footer>div.footerTop>div{
+footer>div.footerTop>div {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     width: 75rem;
 }
-footer>div.footerTop>div>dl.utilBtm{
+footer>div.footerTop>div>dl.utilBtm {
     display: flex;
     align-items: center;
-    height: 2rem;
-    /* background-color: skyblue; */
-    
+    height: 2rem;    
 }
-footer>div.footerTop>div>dl.utilBtm>dd{
+footer>div.footerTop>div>dl.utilBtm>dd {
     position: relative;
     padding: 0 0rem 0 0.5rem;
     margin-left: 0.5rem
 }
-footer>div.footerTop>div>dl.utilBtm>dd.f_txt:first-child{
+footer>div.footerTop>div>dl.utilBtm>dd.f_txt:first-child {
     padding-left: 0;
 }
-footer>.footerTop>div>.utilBtm>.f_txt>a{
+footer>.footerTop>div>.utilBtm>.f_txt>a {
     font-size: 0.7rem;
     font-weight: bold;
     display: flex; align-items: center;
@@ -47,15 +43,14 @@ footer>.footerTop>div>.utilBtm>.f_txt>a{
 
 
 
-footer>div.footerTop>div>dl.utilBtm>dd:not(:first-of-type)::after{
+footer>div.footerTop>div>dl.utilBtm>dd:not(:first-of-type)::after {
     position: absolute; left: 0; top: calc(50% - 7px);
     border-left: 0.1rem solid #a1a1a1;
     height: 13px;
     content: "";
 }
-footer>div.footerTop>div>dl.utilBtm>dd>a{
+footer>div.footerTop>div>dl.utilBtm>dd>a {
     margin: 0 auto;
-    /* border: 3px solid rebeccapurple; */
     font-size: 0.8rem;
     color: #a1a1a1;
     font: 13px "Roboto","Arial","Nanum Gothic","Malgun Gothic","맑은 고딕","Dotum","돋움","Apple SD Gothic Neo","AppleGothic",sans-serif;
@@ -63,22 +58,22 @@ footer>div.footerTop>div>dl.utilBtm>dd>a{
     padding: 0rem;
 }
 
-footer>div.footerTop>div>dl.utilBtm>dd.sns{
-    /* padding: -16px; */
+footer>div.footerTop>div>dl.utilBtm>dd.sns {
+    /* padding: -16px; */ 
 }
-footer>div.footerTop>div>dl.utilBtm>dd.sns>ul{
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul {
     display: flex; align-items: center;
     height: 3rem;
     padding-top: 0.3rem;
 }
-footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(1)>a>img{
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(1)>a>img {
     width: 1.4rem;
 }
 
-footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(2)>a>img{
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(2)>a>img {
     height: 1.37rem;
 }
-footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(3)>a>img{
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(3)>a>img {
     padding-left: 1rem;
     padding-bottom: 0.3rem;
     width: 1.4rem;
@@ -87,29 +82,25 @@ footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(3)>a>img{
 
 
 /* footerBtm wrap */
-footer>div.footerBottom{
+footer>div.footerBottom {
     height: 5rem; background: #F6F6F6;
-    
 }
 
 /* footerBtm wrap > div */
-footer>div.footerBottom>.corpInfo{
+footer>div.footerBottom>.corpInfo {
     margin: 0 auto;
     width: 75rem;
-    /* border: 3px solid moccasin; */
     font-size: 0.8rem;
     height: 3rem;
     color: #a1a1a1;
     font: 0.75rem "Roboto","Arial","Nanum Gothic","Malgun Gothic","맑은 고딕","Dotum","돋움","Apple SD Gothic Neo","AppleGothic",sans-serif;
-    /* font-weight: 400; */
     padding: 0.5rem 0 0rem 2rem;
     line-height: 0.8rem;
 }
 
 
-footer>div.footerBottom>.corpInfo>address>span::after
-,footer>div.footerBottom>.corpInfo>p>span::after{
-    /* border-left: 0.1rem solid #a1a1a1; */
+footer>div.footerBottom>.corpInfo>address>span::after,
+footer>div.footerBottom>.corpInfo>p>span::after {
     line-height: 1.1rem;
     margin: 0.2rem;
     padding: 0 0.2rem;
