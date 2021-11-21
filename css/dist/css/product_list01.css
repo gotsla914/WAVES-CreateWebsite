@@ -125,6 +125,34 @@ main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
 /* sub banner 2 끝 */
 
 
+
+
+
+/* 추천아이템 시작 */
+.recommends-wrapper {
+    /* width: 60rem; */
+    margin: 13rem auto;
+}
+.recommends-wrapper>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommends-wrapper>.recommends>a>img {
+    
+}
+.recommends-wrapper>ul>.recommend-item:first-child>a>img{
+    width: 40rem;
+    
+}
+.recommends-wrapper>ul>.recommend-item>a>img{
+    width: 15rem;
+
+}
+/* 추천아이템 끝 */
+
+
+
+
 .swiper {
     margin-top: 5rem;
 }
