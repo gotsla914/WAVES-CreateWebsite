@@ -32,6 +32,62 @@
 }
 
 
+
+
+
+/* aside 상단 - 커브 디바이더 추가 */
+/* top-curve */
+
+.custom-shape-divider-top-1637558458 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1637558458 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 54px;
+}
+
+.custom-shape-divider-top-1637558458 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+/* bottom-curve */
+
+.custom-shape-divider-bottom-1637558424 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1637558424 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 54px;
+}
+
+.custom-shape-divider-bottom-1637558424 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* aside 상단 - 커브 디바이더 끝 */
+
+
+
 /* HOT ITEMS 상단 - aside 추가 */
 
 main>.middle-aside-wrapper {
@@ -43,6 +99,7 @@ main>.middle-aside-wrapper {
 main>.middle-aside-wrapper>.middle-aside {
     width: 100%;
     height: 30rem;
+    margin: 0 auto;
     background-image: url(../../../imgs/sub_imgs/10y.png);
     background-size: cover;
 }
