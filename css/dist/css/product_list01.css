@@ -130,9 +130,16 @@ main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
 
 /* 추천아이템 시작 */
 .recommends-wrapper {
-    /* width: 60rem; */
+    width: 60rem;
     margin: 13rem auto;
 }
+.recommends-wrapper>.recommends {
+    float: left;
+}
+.recommends-wrapper>.recommends>a>img {
+    width: 30rem;
+}
+
 .recommends-wrapper>ul{
     display: flex;
     flex-wrap: wrap;
@@ -140,12 +147,16 @@ main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
 .recommends-wrapper>.recommends>a>img {
     
 }
-.recommends-wrapper>ul>.recommend-item:first-child>a>img{
-    width: 40rem;
+
+.recommends-wrapper>ul>.recommend-item {
+    display: flex;
     
+    /* overflow: hidden; */
+
 }
 .recommends-wrapper>ul>.recommend-item>a>img{
-    width: 15rem;
+    width: 13rem;
+    padding: 0.3rem;
 
 }
 /* 추천아이템 끝 */
