@@ -10,15 +10,11 @@ main>div {
 }
 
 .main_menu {
-    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 800;
+    font: 800 1.1rem/1.2rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
-
 .main_bn_bg {
     width: 100%;
     margin-top: 4rem;
-
 }
 
 .main_banner {
@@ -30,7 +26,6 @@ main>div {
     margin: 0 auto;
     max-height: 30rem;
     object-fit: cover;
-
 }
 
 /* 메인배너 추가 */
@@ -43,37 +38,21 @@ main>div {
 .main_banner>.bg_item>div>p {
     position: absolute;
     right: 0;
-
-}
-
-.main_banner>.bg_item>div>p:first-child {
-    font: 5rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
-    color: #FFFFFF;
-    bottom: 5rem;
-}
-
-.main_banner>.bg_item>div>p:last-child {
-    font: 2rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
-    color: #FFFFFF;
-    bottom: 1rem;
-
 }
 
 .theme {
     width: 75rem;
     height: 32rem;
     margin: 10rem auto 15rem auto;
-    /* box-sizing: border-box; */
     overflow: hidden;
 }
 
 .theme>ul {
     height: 100%;
-    object-fit: cover;
-    display: flex;
     padding: 2rem 1rem 1rem 1rem;
     display: flex;
     justify-content: space-around;
+    object-fit: cover;
 }
 
 .theme>ul>li {
@@ -137,7 +116,7 @@ main>div {
     opacity: 1;
     bottom: 0rem;
     right: 0rem;
-    overflow: visible;
+    /* overflow: visible; */
 }
 /* 상품 - 효과 추가 이벤트끝  */
 /* ----------------------- */
@@ -150,7 +129,6 @@ main>div {
     overflow: hidden;
     height: 100%;
     width: 100%;
-    /* 수정됨 1117-1246 */
 }
 
 .theme>ul>li:nth-child(2):hover>a>img:first-child {

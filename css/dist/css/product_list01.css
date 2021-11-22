@@ -16,13 +16,12 @@
 
 .main_banner>p {
     position: absolute;
-    bottom: 5rem;
-    left: 14.2%;
+    bottom: 2rem;
+    left: 9.5%;
     font: 900 2.5rem/3.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: left;
     text-shadow: 0.2rem 0.1rem 0 #2e2e2e;
     color: #fff;
-
 }
 
 .main_banner>p>strong {
@@ -33,11 +32,8 @@
 
 
 
-
-
 /* aside 상단 - 커브 디바이더 추가 */
 /* top-curve */
-
 .custom-shape-divider-top-1637558458 {
     position: absolute;
     top: 0;
@@ -62,7 +58,6 @@
 
 
 /* bottom-curve */
-
 .custom-shape-divider-bottom-1637558424 {
     position: absolute;
     bottom: 0;
@@ -83,13 +78,11 @@
 .custom-shape-divider-bottom-1637558424 .shape-fill {
     fill: #FFFFFF;
 }
-
 /* aside 상단 - 커브 디바이더 끝 */
 
 
 
 /* HOT ITEMS 상단 - aside 추가 */
-
 main>.middle-aside-wrapper {
     width: 75rem;
     margin: 9rem auto 1rem;
@@ -98,28 +91,28 @@ main>.middle-aside-wrapper {
 
 main>.middle-aside-wrapper>.middle-aside {
     width: 100%;
-    height: 30rem;
+    height: 34rem;
     margin: 0 auto;
-    background-image: url(../../../imgs/sub_imgs/10y.png);
+    background-image: url(../../../imgs/sub_imgs/10c.png);
     background-size: cover;
 }
 
 .middle-aside>p {
     position: absolute;
-    top: 3.5rem;
-    left: 14%;
-    font: 900 2.5rem/3.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    top: 5.5rem;
+    left: 8%;
+    font: 900 2.7rem/3.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: left;
     text-shadow: 0.2rem 0.1rem 0 #2e2e2e;
     color: #fff;
 }
 
 .middle-aside>p>strong {
-    font-size: 3rem;
+    font-size: 3.2rem;
 } 
+
 /* -------------------------- */
 /* 제품 텍스트 영역 */
-
 .sub_page_themeList>li>a>.product_name,
 .sub_page_themeList2>li>a>.product_name {
     text-align: center;
@@ -129,7 +122,6 @@ main>.middle-aside-wrapper>.middle-aside {
 .sub_page_themeList>li>a>P,
 .sub_page_themeList2>li>a>P {
     font: 500 1rem/1.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
-    /* width: 15rem; */
     margin-top: 0.2rem;
     text-align: center;
     display: block;
@@ -137,6 +129,7 @@ main>.middle-aside-wrapper>.middle-aside {
 }
 
 /* sub banner 1 */
+/* sub banner 타이틀 전체 */
 main>.sub_title {
     margin-top: 10rem;
     margin-bottom: 4rem;
@@ -155,7 +148,6 @@ main>.sub_page_theme>.sub_page_themeList>li {
 main>.sub_page_theme>.sub_page_themeList>li>a>img {
     width: 100%;
 }
-
 /* sub banner 1 끝 */
 
 
@@ -188,13 +180,14 @@ main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
 /* 추천아이템 시작 */
 .recommends-wrapper {
     width: 60rem;
-    margin: 13rem auto;
+    margin: 4rem auto;
 }
 .recommends-wrapper>.recommends {
     float: left;
 }
 .recommends-wrapper>.recommends>a>img {
-    width: 30rem;
+    width: 32rem;
+    
 }
 
 .recommends-wrapper>ul{
@@ -207,14 +200,18 @@ main>.sub_page_theme2>.sub_page_themeList2>li>a>img {
 
 .recommends-wrapper>ul>.recommend-item {
     display: flex;
-    
-    /* overflow: hidden; */
-
+    margin: 0.2rem;
 }
 .recommends-wrapper>ul>.recommend-item>a>img{
     width: 13rem;
     padding: 0.3rem;
-
+}
+.recommends-wrapper>ul>.recommend-item>a>p{
+    font: 500 1rem/1.4rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    display: block;
+    margin-top: 0.2rem;
+    text-align: center;
+    color: #4b4b4b;
 }
 /* 추천아이템 끝 */
 
