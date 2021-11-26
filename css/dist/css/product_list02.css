@@ -14,7 +14,7 @@
     display: none;
     position: absolute;
     width: 100%;
-    height: 38rem;  
+    height: 38rem;
     background-size: cover;
 }
 
@@ -47,23 +47,13 @@
     position: relative;
 }
 
-.mid-banner{
-width:50rem;
+.mid-banner {
+    width: 50rem;
 
 }
-.mid-banner>img{
-width: 50rem;
-}
 
-/* 배너 제목! */
-#banner>ul#bannerList>li>div.center>strong {
-    position: absolute;
-    left: -7.8rem;
-    top: 3rem;
-    padding-right: 2rem;
-    font: 900 3.1rem/13rem "Noto Sans KR", sans-serif;
-    text-shadow: 0.1rem 0.1rem 0 #fff;
-    color: #222;
+.mid-banner>img {
+    width: 50rem;
 }
 
 /* 배너 내용 P */
@@ -78,7 +68,7 @@ width: 50rem;
 }
 
 
-/* 자세히보기 */
+/* 자세히 보기 */
 #banner>ul#bannerList>li>div.center>a {
     cursor: pointer;
     display: block;
@@ -97,44 +87,16 @@ width: 50rem;
 
 
 /* 배너 컨트롤박스 */
-
 #banner>div#controllBox {
     position: absolute;
-    z-index: 200;
     left: calc(50% - 50rem);
     top: 0;
     width: 100rem;
     height: 40rem;
 }
 
-#banner>div#controllBox>p.prevBtn {
-    position: absolute;
-    left: -5rem;
-    top: 19rem;
-    width: 3rem;
-    height: 5rem;
-    background: url(imgs/sub_imgs/pause_icon.png) no-repeat 100% -45rem;
-    /* 사진 안나옴~~~~~js문젠감! */
-    font-size: 0;
-    line-height: 0;
-    cursor: pointer;
-}
-
-#banner>div#controllBox>p.nextBtn {
-    position: absolute;
-    right: 45rem;
-    top: 19rem;
-    width: 3rem;
-    height: 5rem;
-    background: url(../../../imgs/T_arrow_icon.png) no-repeat 100% -45rem;
-    font-size: 0;
-    line-height: 0;
-    cursor: pointer;
-    z-index: 999999;
-}
-
 /* 배너 컨트롤러 */
-/* 컨트롤러 박스-가로로 길쭉 */
+/* 컨트롤러 박스*/
 #banner>div#controllBox>div#bannerController {
     position: absolute;
     z-index: 200;
@@ -144,19 +106,6 @@ width: 50rem;
     text-align: center;
     font-size: 0;
     line-height: 0;
-}
-
-/* 재생버튼인듯 */
-#banner>div#controllBox>div#bannerController>p.bannerPlay {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background: url(../../../imgs/sub_imgs/play_icon.png) no-repeat 0 0;
-    cursor: pointer;
-}
-
-#banner>div#controllBox>div#bannerController>p.bannerPlay.off {
-    background: url(../../../imgs/sub_imgs/pause_icon.png) no-repeat 0 0;
 }
 
 #banner>div#controllBox>div#bannerController>ul#bannerBullet {
@@ -175,33 +124,115 @@ width: 50rem;
 }
 
 /* 불렛 컬러*/
-
 #banner>div#controllBox>div#bannerController>ul#bannerBullet>li.on {
     width: 2rem;
-    /* background: rgb(173, 143, 190); */
     background: #DADADA;
-
 }
+
+
+/* What's New? 수정 */
+.sub02_theme {
+    width: 75rem;
+    height: 25rem;
+    margin: 15rem auto 10rem auto;
+}
+
+.sub02_theme>ul {
+    height: 15.5rem;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+.sub02_theme>ul>li {
+    overflow: hidden;
+    white-space: nowrap;
+    flex: 1 0 auto;
+}
+
+.sub02_theme>ul>li>a {
+    position: relative;
+    display: block;
+}
+
+.sub02_theme>ul>li>a>img {
+    width: 12rem;
+}
+
+.sub02_theme>ul>li>a>p {
+    opacity: 0;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.sub02_theme>ul>li>a>img:nth-child(2) {
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.sub02_theme>ul>li>a>img:not(:first-child) {
+    position: absolute;
+    height: 10rem;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+/* 이벤트 */
+.sub02_theme>ul>li:hover>a>img:nth-child(1) {
+    opacity: 0;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.sub02_theme>ul>li:hover>a>img:nth-child(2) {
+    height: 100%;
+    width: 90%;
+    opacity: 1;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.sub02_theme>ul>li>a:hover>p {
+    font: 900 1.1rem/1.7rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #2e2e2e;
+    text-shadow: 0.05rem 0.05rem 0 #fff;
+    opacity: 1;
+    position: absolute;
+    bottom: 1rem;
+    right: 1.8rem;
+}
+/* What's New? 수정 끝 */
 
 
 /* -------------------------- */
-/* what's new - 배경바꿈 */
-main>div{ 
-    background-color: #fff;
+/* mid-aside 추가 */
+.mid_aside>img {
+    width: 30rem;
 }
+
+
+
 
 /* 중간아래배너 사진 크기 */
 .midBanner {
     width: 75rem;
     margin: 0 auto;
 }
+
 .midBanner>img {
     width: 75rem;
 }
 
-.shape-fill{
+.shape-fill {
     fill: #969D9F;
 }
+
+
+
+
 /* -------------------------- */
 /* aside 이미지 추가 */
 .wave-img-wrapper {
@@ -209,12 +240,13 @@ main>div{
     margin: 0 auto;
     background-size: cover;
 }
+
 .wave-img-wrapper>.wave-img {
     background: url(../../../imgs/sub_imgs/banner_image_horizontal01.jpg) no-repeat 0 0;
     width: 100%;
     height: 70rem;
     background-size: cover;
-    
+
 }
 
 

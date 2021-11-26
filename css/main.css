@@ -49,7 +49,7 @@ main>div {
 
 .theme>ul {
     height: 100%;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-around;
     object-fit: cover;
@@ -58,9 +58,7 @@ main>div {
 .theme>ul>li {
     overflow: hidden;
     white-space: nowrap;
-    flex: 0 0 auto;
-    justify-content: space-between;
-    align-items: center;
+    padding: 1rem;
 }
 
 .theme>ul>li>a {

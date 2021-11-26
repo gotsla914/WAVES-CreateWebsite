@@ -1,9 +1,9 @@
-var num = 0;
+let num = 0;
 
-var autoBanner = setInterval(function(){
+let autoBanner = setInterval(function(){
     middleGate();
     
-}, 6500);
+}, 5000);
 
 function middleGate(){
     num++;
@@ -12,8 +12,8 @@ function middleGate(){
 
 
 function doBanner(){
-    var list = $("#bannerList").children("li");
-    var len = list.length;
+    let list = $("#bannerList").children("li");
+    let len = list.length;
     if(num<0){
         num = len-1;
     }else if(num > len-1){
@@ -37,7 +37,7 @@ $(".prevBtn").click(function(){
         autoBanner = setInterval(function(){
                         middleGate();
 
-                        }, 6500);
+                        }, 5000);
     }
 });
 $(".nextBtn").click(function(){
@@ -51,7 +51,7 @@ $(".nextBtn").click(function(){
         autoBanner = setInterval(function(){
                         middleGate();
 
-                    }, 6500);
+                    }, 5000);
     }
 });
 
@@ -69,14 +69,14 @@ $("#bannerBullet").children("li").click(function(){
         autoBanner = setInterval(function(){
                         middleGate();
 
-                    }, 6500);
+                    }, 5000);
     }
 });
 
 
 /* 자동함수 */
 $(".bannerPlay").click(function(){
-    var _this = $(this);
+    let _this = $(this);
     
     _this.toggleClass("off");
     
@@ -91,7 +91,7 @@ $(".bannerPlay").click(function(){
        autoBanner = setInterval(function(){
                         middleGate();
 
-                    }, 6500);
+                    }, 5000);
     }
     
 });
