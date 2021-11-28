@@ -37,7 +37,7 @@
     background: url(../../../imgs/sub_imgs/133.jpg) no-repeat 0 0;
 }
 
-/* 배너 중심div */
+/* 배너 중심 div */
 #banner>ul#bannerList>li>div.center {
     width: 75rem;
     padding-top: 10rem;
@@ -130,11 +130,11 @@
 }
 
 
-/* HOT ITEMS */
+/* HOT ITEMS 시작 */
 .sub02_theme {
     width: 70rem;
     height: 25rem;
-    margin: 12rem auto 10rem auto;
+    margin: 12rem auto 6rem auto;
 }
 
 .sub02_theme>ul {
@@ -144,7 +144,6 @@
     margin: auto;
     justify-content: space-between;
     object-fit: cover;
-    /* background-color: #F3F3F3; */
 }
 
 .sub02_theme>ul>li {
@@ -208,14 +207,15 @@
     right: 1.8rem;
 }
 
-/* What's New? 수정 끝 */
+/* HOT ITEMS 끝 */
 
 
-/* -------------------------- */
-/* mid-aside 추가 */
 
+
+
+/* MD Pick 시작 */
 .mid_aside {
-    margin: 7rem auto;
+    margin: 5rem auto 12rem;
     width: 65rem;
     position: relative;
 }
@@ -225,14 +225,13 @@
     opacity: 0.8;
 }
 
-/* 문단전체 */
 .mid_aside>p {
     width: 35rem;
     font: 500 1.3rem/2.2rem "Pretendard-Regular", "Noto Sans KR", sans-serif;
     position: absolute;
     right: 0rem;
     bottom: 3.5rem;
-    padding: 2.5rem;
+    padding: 1.5rem;
     color: #222;
     text-align: right;
     background-color: #f3f3f3;
@@ -242,33 +241,33 @@
     width: 100%;
     position: absolute;
     display: block;
-    padding-right: 3rem;
+    padding-right: 1.5rem;
     top: -12rem;
     right: 0;
     font: 500 1.8rem/2.6rem "Pretendard-Regular", "Noto Sans KR", sans-serif;
     text-align: right;
 }
 
-
 .mid_aside>p>span>strong {
     text-shadow: 0.1rem 0.1rem 0 #fff;
     font: 900 3rem/3.5rem "Pretendard-Regular", 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 
-
-/* 단어 강조 */
+/* 강조 */
 .mid_aside>p>strong {
     font-weight: 700;
-    /* background-color: #c2c2c2; */
 }
 
+/* MD Pick 끝 */
 
-/* --------------- */
-/* Popular View 시작 */
+
+
+/* Ear-fit 시작 */
 .recommends-wrapper {
     width: 65rem;
     height: 32rem;
-    margin: 4rem auto;
+    margin: 5.3rem auto;
+    margin-bottom: 14rem;
 }
 
 .recommends-wrapper>.recommends {
@@ -332,8 +331,12 @@
 .recommends-wrapper>ul>.recommend-item:hover>a>img {
     width: 15rem;
     transition: 0.3s ease-in-out;
-
 }
+
+.recommends-wrapper>ul>.recommend-item:hover>a>p {
+    display: none;
+}
+
 
 .recommends-wrapper>ul>.recommend-item:hover>a>p {
     font: 1rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
@@ -347,15 +350,17 @@
     margin: 0 auto;
 }
 
-/* Popular View 끝 */
+/* Ear-fit 끝 */
 
 
 
-/* pro - lineup 시작 */
+
+/* Headphones 시작 */
 .sub_page_theme {
     width: 75rem;
-    margin: 0 auto;
+    margin: auto;
 }
+
 .sub_page_theme>.sub_page_themeList {
     display: flex;
     width: 75rem;
@@ -376,7 +381,6 @@
     margin: 1rem 0 0 0;
     text-align: center;
     color: #2e2e2e;
-
 }
 
 .sub_page_themeList>li>a>P {
@@ -387,66 +391,16 @@
     color: #404040;
 }
 
-
-/* pro - lineup 끝 */
-
-
-
-
-
-
-
-
-
-/* --------------- */
-/* 중간아래배너 사진 크기 */
-.midBanner {
-    width: 75rem;
-    margin: 0 auto;
-}
-
-.midBanner>img {
-    width: 75rem;
-}
-
-.shape-fill {
-    fill: #969D9F;
-}
-
-
-/* 나중에삭제 */
-/* -------------------------- */
-/* aside 이미지 추가 */
-.wave-img-wrapper {
-    width: 75rem;
-    margin: 0 auto;
-    background-size: cover;
-}
-
-.wave-img-wrapper>.wave-img {
-    background: url(../../../imgs/sub_imgs/banner_image_horizontal01.jpg) no-repeat 0 0;
-    width: 100%;
-    height: 70rem;
-    background-size: cover;
-
-}
-
-/* 나중에삭제 */
-
-
-
-
-
-
+/* Headphones 끝*/
 
 
 
 
 
 /* -------------------------- */
-
 
 /* 하단 Style */
+
 /* 하단 버튼 3개 */
 section.etc>ul>li {
     flex: 0 1 auto;
@@ -487,11 +441,6 @@ section.etc>ul>li>a>img:nth-child(1) {
 section.etc>ul>li>a>span {
     margin: 0 0.5rem;
 }
-
-/* section.etc>ul>li:nth-child(2)>a>img {}
-
-section.etc>ul>li:nth-child(3)>a>img {} */
-
 
 p.dirTop {
     position: relative;
