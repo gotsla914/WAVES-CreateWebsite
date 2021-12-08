@@ -1,0 +1,100 @@
+html {
+    background-color: rgb(146, 132, 148);
+}
+
+.login_wrapper_bg {
+    width: 98.7vw;
+    height: 100vh;
+    margin: 5.4rem auto;
+    padding-top: 5.4rem;
+    background-color: rgb(255, 241, 241);
+}
+
+.login_wrapper_bg>.login_wrapper {
+    width: 35rem;
+    height: 39rem;
+    margin: 0rem auto;
+    border: 1px solid #222;
+}
+
+/* 헤더 */
+.login_wrapper_bg>.login_wrapper>.login_header {
+    text-align: center;
+    line-height: 7rem;
+    /* 로고위 여백*/
+    border: 2px dashed greenyellow;
+    /*표시용 임시 라인*/
+}
+
+
+
+
+/* 로그인 컨텐트*/
+
+
+.login_content>form {
+    /* padding: 1rem;  */
+}
+
+.login_content>form>input {
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+
+/* .login_content>form>input[type="text"]{
+  
+}
+ */
+
+
+
+/* 로그인 컨텐트 하단 */
+/* 로그인상태 유지-체크박스 */
+.keep_check {
+    border: 2px dashed greenyellow;
+    /*표시용 임시 라인*/
+    text-align: center;
+}
+
+/* 로그인 버튼 */
+.btn_log_wrapper>button {
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    color: #fff;
+    background-color: rosybrown;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+
+/* 아이디,비번찾기, 회원가입 */
+.login_wrapper_bg>ul {
+
+ 
+}
+
+.login_wrapper_bg>ul>li { 
+
+}
+
+.login_wrapper_bg>ul>li>a{
+
+}
+
+
+
+
+/* 푸터 */
+.login_footer {}
+
+.login_footer>aside {}
+
+.login_footer>aside>img {
+    width: 35rem;
+}

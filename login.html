@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- sns share -->
+  <meta properyt="og.url" content="https://inspiring14.netlify.app">
+  <title>WAVES Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/dist/css/login.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="js/index.js" />
+  <script type="text/javascript" src="js/main.js"></script>
+  <style>
+    @font-face {
+      font-family: 'Pretendard-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body id="top">
+  <div class="wrap">
+    <div class="content">
+      <div id="progressbar" class="progressbar">
+        <div class="progress"></div>
+      </div>
+    </div>
+    <header>
+      <div class="center">
+        <h1>
+          <a href="index.html"><img src="imgs/waves.logo.png" alt="waves_logo" /></a>
+        </h1>
+        <nav>
+          <h2 class="hidden">메인 네비게이터</h2>
+          <ul>
+            <!-- 메뉴1 -->
+            <li>
+              <a href="product_list01.html" class="main_menu">신제품</a>
+              <ul>
+                <li><a href="product_list01.html">2022's NEW</a></li>
+                <li class="child">
+                  <a href="#">이어 핏</a>
+                  <ul>
+                    <li><a href="#">인-이어 핏</a></li>
+                    <li><a href="#">온-이어 핏</a></li>
+                    <li><a href="#">어라운드-이어 핏</a></li>
+                  </ul>
+                </li>
+                <li class="child">
+                  <a href="#">헤드폰</a>
+                  <ul>
+                    <li><a href="#">무선 헤드폰</a></li>
+                    <li><a href="#">블루투스 헤드폰</a></li>
+                  </ul>
+                <li class="child">
+                  <a href="#">스피커</a>
+                  <ul>
+                    <li><a href="#">포터블 스피커</a></li>
+                    <li><a href="#">홈 스피커</a></li>
+                    <li><a href="#">서라운드 사운드바</a></li>
+                    <li><a href="#">베이스-우퍼 모듈</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- 메뉴2 -->
+            <li>
+              <a href="product_list02.html" class="main_menu">스토어</a>
+              <ul>
+                <li class="child">
+                  <a href="#">이어 핏</a>
+                  <ul>
+                    <li><a href="#">인-이어 핏</a></li>
+                    <li><a href="#">온-이어 핏</a></li>
+                    <li><a href="#">어라운드-이어 핏</a></li>
+                  </ul>
+                </li>
+                <li class="child">
+                  <a href="#">헤드폰</a>
+                  <ul>
+                    <li><a href="#">무선 헤드폰</a></li>
+                    <li><a href="#">블루투스 헤드폰</a></li>
+                  </ul>
+                <li class="child">
+                  <a href="#">스피커</a>
+                  <ul>
+                    <li><a href="#">포터블 스피커</a></li>
+                    <li><a href="#">홈 스피커</a></li>
+                    <li><a href="#">서라운드 사운드바</a></li>
+                    <li><a href="#">베이스-우퍼 모듈</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">악세서리</a></li>
+                <li><a href="#">특가상품</a></li>
+              </ul>
+              <!-- 메뉴3 -->
+            <li>
+              <a href="#" class="main_menu">Only on Waves</a>
+              <ul>
+                <li><a href="#">WAVES Art Museum</a></li>
+                <li><a href="#">Waves System</a></li>
+                <li><a href="#">Dolby Atmos</a></li>
+              </ul>
+            </li>
+            <!-- 메뉴4 -->
+            <li>
+              <a href="#" class="main_menu">고객지원</a>
+              <ul>
+                <li><a href="#">매장안내</a></li>
+                <li><a href="#">A/S안내</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- 네비 끝 -->
+        <div id="srchBox">
+          <h2 class="hidden">제품검색</h2>
+          <form action="index.jsp">
+            <a href="#"><input class="srch_icon" type="image" src="imgs/ic_search.png" alt="검색아이콘" id="srch_icon" /></a>
+            <input type="search" id="srch" placeholder="제품 검색" maxlength="7" />
+          </form>
+        </div>
+        <div id="user_menu">
+          <a href="#"><img src="imgs/user_cart.png" alt="장바구니" title="장바구니" /></a>
+          <a href="login.html"><img src="imgs/user2.png" alt="마이페이지" title="마이페이지" /></a>
+        </div>
+      </div>
+    </header>
+    <!--  헤더 끝 -->
+
+    <body>
+      <!-- 로그인 영역 -->
+      <h1 class="hidden">로그인 페이지</h1>
+
+
+      <div class="login_wrapper_bg">
+        <!-- 배경 -->
+        <div class="login_wrapper">
+          <!-- 로그인 전체 박스-->
+
+          <!-- 헤더 -->
+          <div class="login_header">
+            <a href="index.html"><img src="imgs/waves.logo.png" width="200px" alt="waves_logo" /></a>
+
+          </div>
+
+          <!-- 컨텐츠 -->
+          <div class="login_content">
+            <form action="login">
+              <input type="text" id="id" name="id" placeholder="아이디" title="아이디를 입력하세요" maxlength="41" value="">
+              <input type="password" name="pw" id="pw" placeholder="비밀번호" title="비밀번호를 입력하세요" maxlength="41" value="">
+            </form>
+          </div>
+
+          <div class="keep_check">
+            <!--로그인상태 유지-체크박스-->
+            <input type="checkbox" id="keep">
+            <label for="keep">로그인상태 유지</label>
+          </div>
+
+
+          <div class="btn_log_wrapper">
+            <button type="submit" class="btn_login" id="log.login">
+              <span>로그인</span>
+            </button>
+          </div>
+
+
+          <ul>
+            <li><a>비밀번호 찾기</a></li>
+            <li><a>| 아이디 찾기</a></li>
+            <li><a>| 회원가입</a></li>
+          </ul>
+
+          <!-- 푸터 -->
+          <div class="login_footer">
+            <aside>
+              <!-- <img src="imgs/sub_imgs/marble.gif" alt=""> -->
+            </aside>
+            <div class="login_footer_inner">
+
+            </div>
+          </div>
+
+
+
+
+        </div> <!-- 로그인 전체 박스-->
+      </div> <!-- 배경 -->
+
+
+      <!-- 로그인 영역 끝 -->
+
+
+
+
+
+
+      <!-- 하단 버튼 3개 -->
+      <section class="etc sub_etc">
+        <h2 class="hidden">기타 내용</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="imgs/building_icon.png" alt="웨이브 아트 뮤지엄" />
+              <span>WAVES<br>Art Museum<span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imgs/building_icon_square.png" alt="매장안내" />
+              <span>매장안내</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imgs/chat_icon.png" alt="상담센터" />
+              <span>CS센터</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <p class="dirTop">
+        <a href="#top"><img src="imgs/T_arrow_icon.png" alt="위로가기" /></a>
+      </p>
+  </div>
+  </div>
+  <!-- 메인 컨텐츠 끝-->
+  <footer>
+    <h2 class="hidden">하단내용</h2>
+    <div class="footerTop">
+      <div>
+        <dl class="utilBtm">
+          <dt class="hidden">하단 유틸메뉴</dt>
+          <dd class="f_txt"><a href="#">개인정보취급방침</a></dd>
+          <dd class="f_txt"><a href="#">이용약관</a></dd>
+          <dd class="f_txt"><a href="#">사이트맵</a></dd>
+          <dd class="sns">
+            <ul>
+              <li>
+                <a href="#"><img src="imgs/ic_facebook.png" alt="페이스북" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="imgs/ic_instagram.png" alt="인스타그램" /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="imgs/youtube_icon_512.png" opacity=".3" alt="유튜브" />
+                </a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="footerBottom">
+      <div class="corpInfo">
+        <address> WAVES KOREA<span></span>경기도 성남시 분당구 178-1 문화팩토리 2층</address>
+        <p>사업자번호 2022-23011<span></span>통신판매번호 2022-23011 </p>
+        <p>대표번호 1588-1500<span></span>이메일 waves@official.com</p>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

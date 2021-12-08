@@ -232,14 +232,16 @@ header>div>nav>ul>li>ul>li:hover>ul {
 }
 
 #user_menu>img {
-    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#user_menu>a>img {
     width: 1.5rem;
     height: 1.5rem;
     opacity: 0.75;
-    cursor: pointer;
-
+    display: inline-block;
 }
-
 #user_menu {
     margin: 1.7rem 0;
     width: 4.5rem;
