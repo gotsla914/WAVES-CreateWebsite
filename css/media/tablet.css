@@ -1,0 +1,46 @@
+@media only screen and (max-width:1200px) {
+    .main_banner>.bg_item>img:first-child {
+        width: 100vw;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .center {}
+
+    .main_banner>.bg_item>img:first-child {
+        /* width: 100vw; */
+        margin: 0 auto;
+    }
+
+
+    header>div>nav>ul>li>ul>li>a {
+        font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+        font-size: 0.9rem;
+        justify-content: end;
+        margin: 0 auto;
+        width: 75vw;
+        height: 100px;
+        display: flex;
+
+    }
+
+    #user_menu {
+        position: relative;
+    }
+
+    #user_menu>a>i {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* 본문 시작 */
+
+.theme {
+    width: 35rem;
+    
+}

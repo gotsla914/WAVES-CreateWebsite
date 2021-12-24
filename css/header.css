@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     width: 100%;
@@ -5,7 +6,7 @@ body {
 
 /*컨텐츠 전체*/
 .content {
-    width: 100%;
+    width: 100vw;
     z-index: 99999;
 }
 
@@ -34,7 +35,7 @@ header {
     left: 0;
     top: 0;
     z-index: 9999;
-    width: 100%;
+    width: 100vw;
     height: 5.3rem;
     background: #fff;
     border-bottom: 0.1rem solid #c9c9c9;
@@ -236,4 +237,9 @@ header>div>nav>ul>li>ul>li:hover>ul {
     height: 1.5rem;
     opacity: 0.75;
     display: inline-block;
+}
+/* 반응형 토글메뉴 숨김 */
+#user_menu>a>i
+{
+    display: none;
 }

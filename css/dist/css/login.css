@@ -65,10 +65,10 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label {
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 0.8rem;
+    height: 0.8rem;
     border: 0.1rem solid #222;
-    border-radius: 5rem;
+    border-radius: 0.2rem;
     position: relative;
     top: 0.3rem;
     cursor: pointer;
@@ -81,6 +81,7 @@ input[id="keep"]:checked + label::after {
     content:"✔";
     font-size: 1rem;
     font-weight: bolder;
+    vertical-align: middle;
     width: 1rem;
     height: 1rem;
     text-align: right;
@@ -144,3 +145,5 @@ input[id="keep"]:checked + label::after {
     width: 25rem;
     opacity: 0.7;
 }
+
+

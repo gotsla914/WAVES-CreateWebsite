@@ -30,7 +30,7 @@ main>div {
 
 /* 메인배너 추가 */
 .main_banner>.bg_tiem>div {
-    width: 75rem;
+    width: 25rem;
     height: 5rem;
 }
 
