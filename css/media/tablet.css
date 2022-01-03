@@ -1,6 +1,6 @@
 @media only screen and (max-width:1200px) {
     .main_banner>.bg_item>img:first-child {
-        width: 100vw;
+        width: 98.7vw;
         margin: 0 auto;
     }
 }
@@ -8,13 +8,28 @@
 
 
 @media only screen and (max-width:800px) {
-    .center {}
+    
+    
+    header {
 
-    .main_banner>.bg_item>img:first-child {
-        /* width: 100vw; */
-        margin: 0 auto;
+
+        width: 98.7vw;
     }
 
+    .center {
+        width: 100vw;
+        flex-wrap: wrap;
+
+
+    }
+
+    header>div>nav>ul {
+        display: block;
+    }
+
+    header>div>nav>ul>li>ul>li {
+        
+    }
 
     header>div>nav>ul>li>ul>li>a {
         font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
@@ -37,10 +52,15 @@
         top: 0;
         left: 0;
     }
+    
+    /* 메인 배너 */
+    .main_banner>.bg_item>img:first-child {
+        /* width: 100vw; */
+        margin: 0 auto;
+    }
 
     /* 본문 시작 */
+    .theme {
+        width: 35rem;
 
-.theme {
-    width: 35rem;
-    
-}
+    }

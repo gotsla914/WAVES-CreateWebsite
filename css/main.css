@@ -10,7 +10,7 @@ main>div {
 }
 
 .main_menu {
-    font: 800 1.1rem/1.2rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 800 1.1rem/1.2rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
 }
 .main_bn_bg {
     width: 100%;
@@ -104,7 +104,7 @@ main>div {
     bottom: 1.5rem;
     right: 1.3rem;
     opacity: 1;
-    font: 1.1rem/1.7rem'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 1.1rem/1.7rem 'Pretendard-Regular','Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #2e2e2e;
     text-shadow: 0.05rem 0.05rem 0 #fff;
     text-align: right;
@@ -138,7 +138,7 @@ main>div {
 
 /* sub_theme 시작 */
 .sub_title {
-    font: 1.4rem/1.5rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 1.4rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: center;
     font-weight: 800;
     margin: 2rem;
@@ -237,7 +237,7 @@ div.contents {
 }
 
 div.contents>.sub_title {
-    font: 1.4rem/1.5rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 1.4rem/1.5rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     text-align: center;
     font-weight: 800;
     margin: 1rem;
@@ -333,7 +333,7 @@ section.etc>ul>li>a {
     align-items: center;
     height: 3.7rem;
     width: auto;
-    font: 700 1rem/1.3rem 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    font: 700 1rem/1.3rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
     color: #4b4b4b;
 
 }
@@ -395,3 +395,4 @@ p.dirTop>a>img {
     width: 2rem;
     height: 2rem;
 }
+
