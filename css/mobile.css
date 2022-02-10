@@ -1,0 +1,7 @@
+@media only screen and (max-width:1200px) {
+    .main_banner>.bg_item>img:first-child {
+        width: 98.7vw;
+        margin: 0 auto;
+    }
+}
+

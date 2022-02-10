@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rosybrown;
+    padding: 0.8rem 1.2rem;
+}
+
+.navbar_logo {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar_menu {
+    display: flex;
+}
+
+.navbar_menu li {
+    padding: 0.5rem 1rem;
+}
+
+.navbar_menu li:hover,
+.navbar_menu li:hover>a {
+    background-color: #fff;
+    color: #222;
+    border-radius: 0.4rem;
+}
+
+.navbar_icons {
+    color: white;
+    display: flex;
+}
+
+.navbar_icons>li {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.navbar_toggleBtn {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.2rem;
+}
+
+
+/* 본문 */
+
+.sub_title {
+    text-align: center;
+    font: 20px/21px 'Pretendard-SemiBold', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #222;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.main_items {
+    display: flex;
+    justify-content: center;
+}
+
+.main_items>a>img {
+    max-width: 350px;
+    flex: 1 0 500px;
+    padding: 1rem;
+}
+
+/* HOT ITEMS */
+
+.hot_items {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.hot_items>li>a>img {
+    max-width: 240px;
+    flex: 1 0 auto;
+    padding: 1rem;
+}
+
+.hot_items>li>a>span {
+    width: 240px;
+    display: block;
+    text-align: center;
+    font: 16px/19px 'Pretendard-SemiBold', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #222;
+}
+
+.hot_items>li>a>p {
+    text-align: center;
+    width: 240px;
+    margin: 0.3rem 0 1rem 0;
+    flex-wrap: wrap;
+    font: 15px/18px 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+
+
+/* Speciality */
+
+.special {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto 8rem auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.special>li {
+    flex: 0 1 500px;
+}
+
+.special>li>a>img {
+    width: 95%;
+}
+
+.special>li>a>p {
+    width: 475px;
+    margin: 0.5rem 0 1.7rem 0;
+    text-align: center;
+    font: 15px/18px 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    color: #222;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #F6F6F6;
+}
+
+
+footer>div.footerTop {
+    padding-top: 0.3rem;
+    font: 13px/16px 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+}
+
+footer>div.footerTop>div {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 75rem;
+}
+
+footer>div.footerTop>div>dl.utilBtm {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+footer>div.footerTop>div>dl.utilBtm>dd {
+    position: relative;
+    padding: 0 0rem 0 0.5rem;
+    margin-left: 0.5rem;
+}
+
+footer>.footerTop>div>.utilBtm>.f_txt>a {
+    font-size: 14px;
+    color: #a1a1a1;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+
+footer>div.footerTop>div>dl.utilBtm>dd:not(:first-of-type)::after {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 7px);
+    border-left: 0.1rem solid #a1a1a1;
+    height: 13px;
+    content: "";
+}
+
+
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding-top: 0.3rem;
+}
+
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(1)>a>img {
+    width: 1.4rem;
+}
+
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(2)>a>img {
+    height: 1.37rem;
+}
+
+footer>div.footerTop>div>dl.utilBtm>dd.sns>ul>li:nth-child(3)>a>img {
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+    width: 1.4rem;
+    opacity: 0.3;
+}
+
+
+footer>div.footerBottom {
+    height: auto;
+}
+
+footer>div.footerBottom>.corpInfo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 75rem;
+    color: #a1a1a1;
+    font: 13px "Roboto", "Arial", "Nanum Gothic", "Malgun Gothic", "맑은 고딕", "Dotum", "돋움", "Apple SD Gothic Neo", "AppleGothic", sans-serif;
+    padding: 0rem 0 0rem 2rem;
+    line-height: 0.8rem;
+    flex-wrap: wrap;
+}
+
+
+footer>div.footerBottom>.corpInfo>address,
+footer>div.footerBottom>.corpInfo>P {
+    display: block;
+    flex: 0 1 900px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+
+
+/* 모바일, 태블릿 */
+@media screen and (max-width: 1000px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+        padding: 0.7rem;
+    }
+
+    .navbar_icons {
+        justify-content: center;
+        width: 100%;
+        display: none;
+
+    }
+
+    .navbar_toggleBtn {
+        display: block;
+    }
+
+    .navbar_menu.active,
+    .navbar_icons.active {
+        display: flex;
+    }
+
+    /* 본문 */
+    .sub_title {
+        text-align: center;
+        font: 18px/18px 'Pretendard-SemiBold', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+        color: #222;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .main_items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main_items>a>img {
+        width: 90%;
+        flex: 1 0 auto;
+    }
+
+
+    /* HOT ITEMS */
+
+
+    .hot_items {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hot_items>li>a>img {
+        width: 90%;
+        flex: 1 0 auto;
+    }
+
+    .hot_items>li>a>span {
+        width: 130px;
+        display: block;
+        text-align: center;
+        font: 0.7rem/1rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+        color: #222;
+    }
+
+    .hot_items>li>a>p {
+        text-align: center;
+        width: 140px;
+        margin: 0.3rem 0 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        font: 0.7rem/1rem 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+        color: rgb(58, 58, 58);
+    }
+
+    /* Speciality */
+
+    .special {
+        display: flex;
+        width: 100vw;
+        margin: 0 auto 8rem auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .special>li {
+        flex: 0 1 380px;
+        padding: 0.5rem;
+    }
+
+    .special>li>a>img {
+        width: 100%;
+    }
+
+    .special>li>a>p {
+        width: inherit;
+        margin: 0.3rem 0 0.3rem 0;
+        text-align: center;
+        font: 16px/19px 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+        color: #222;
+    }
+
+    /* footer */
+
+    footer>.footerTop>div>.utilBtm>.f_txt>a {
+        font: 13px/13px 'Pretendard-Regular', 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+    }
+
+    footer>div.footerBottom>.corpInfo {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        width: 1000px;
+        color: #a1a1a1;
+        font: 12px/12px "Roboto", "Arial", "Nanum Gothic", "Malgun Gothic", "맑은 고딕", "Dotum", "돋움", "Apple SD Gothic Neo", "AppleGothic", sans-serif;
+        padding: 0rem 0 0rem 1rem;
+        line-height: 0.8rem;
+        flex-wrap: wrap;
+    }
+
+}

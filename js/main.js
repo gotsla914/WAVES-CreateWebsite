@@ -19,3 +19,11 @@ function setProgress() {
         const bgElems = document.querySelectorAll('.step');
 })();
 
+
+
+const toggleBtn = document.querySelector('.navbar_toggleBtn');
+const navMenu = document.querySelector('.navbar_menu');
+
+toggleBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});

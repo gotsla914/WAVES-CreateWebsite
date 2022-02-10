@@ -11,24 +11,71 @@
     
     
     header {
-
-
         width: 98.7vw;
     }
+    .center{
+        justify-content: start;
+    }
+    .center>h1 {
+       float: left;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        display: none;
+    }
+
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+        padding: 0.7rem;
+    }
+    
+    .navbar_toggleBtn {
+        display: block;
+    }
+
+    .navbar_menu.active,
+    .navbar_icons.active {
+        display: flex;
+    }
+
+
+    /* 내가 추가 */
 
     .center {
         width: 100vw;
         flex-wrap: wrap;
+    }
 
+    #srchBox {
+        display: none;
+    }
 
+    #user_menu { 
+        position: absolute;
+        top: -8rem;
+        right: 2rem;
     }
 
     header>div>nav>ul {
         display: block;
+        width: 100vw;
+        text-align: center;
+        background-color: antiquewhite;
     }
 
-    header>div>nav>ul>li>ul>li {
-        
+    header>div>nav>ul>li {
+        height: 2rem;
+    }
+    header>div>nav>ul>li>ul {
+        display: none;
     }
 
     header>div>nav>ul>li>ul>li>a {
@@ -43,16 +90,22 @@
     }
 
     #user_menu {
-        position: relative;
+        position: absolute;
+        top: 0;
+        right: 3rem;
     }
 
+    /* .nav_toggleBtn */
     #user_menu>a>i {
+        font-size: 1.5rem;
         display: block;
         position: absolute;
         top: 0;
-        left: 0;
+        right: -1.2rem;
+        color: #3a3a3a;
     }
-    
+
+
     /* 메인 배너 */
     .main_banner>.bg_item>img:first-child {
         /* width: 100vw; */
@@ -61,6 +114,21 @@
 
     /* 본문 시작 */
     .theme {
-        width: 35rem;
-
+        width: 100vw;
+        margin: 0;
     }
+    .theme>ul {
+        width: 100%;
+    }
+    
+.theme>ul>li>a>img {
+    width: 100%;
+}
+
+.theme>ul>li>a>img:not(:first-child) {
+    display: none;
+}
+
+.theme>ul>li>a>p {
+    display: none;
+}
